@@ -1,0 +1,17 @@
+# 由 .github/workflows/discover-sources.yml 每週自動探索產生
+# 結果會開 Pull Request,人工核准合併後才會被正式抓取(main.py 啟動時自動併入 sources)
+# 底線開頭欄位(_repo/_stars/_checked_at/_reason)僅供人工參考,程式讀取時會忽略
+
+sources:
+- url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV1_ALL.m3u8
+  group: 自動探索補充
+  _repo: hujingguang/ChinaIPTV
+  _stars: 2064
+  _checked_at: '2026-09-27'
+  _reason: 該 repo 的 star 數高、近期有更新，且頻道名稱中文比例達 100% 且抽樣內容為合適的中文電視台直播源。
+- url: https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/main/webview.m3u
+  group: 自動探索補充
+  _repo: mytv-android/China-TV-Live-M3U8
+  _stars: 335
+  _checked_at: '2026-09-27'
+  _reason: 該倉庫來源於官方網站即時抓取，頻道名稱規範且涵蓋主要官媒，具備良好的穩定性與品質。
