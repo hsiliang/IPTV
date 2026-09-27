@@ -166,9 +166,11 @@ async def ask_gemini(session, api_key, model, repo, best):
         f"頻道抽樣:\n" + "\n".join(f"- {n}" for n in best["sample"]) + "\n\n"
         '只回傳 JSON,不要有其他文字,格式:{"accept": true 或 false, "reason": "一句話原因"}'
     )
-    url = (f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}")
+    # 用 header 帶 API key,不放進 URL query string,避免它出現在例外訊息 / 任何記錄 URL 的地方
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {"contents": [{"parts": [{"text": prompt}]}]}
-    async with session.post(url, json=body, timeout=aiohttp.ClientTimeout(total=30)) as r:
+    headers = {"x-goog-api-key": api_key}
+    async with session.post(url, json=body, headers=headers, timeout=aiohttp.ClientTimeout(total=30)) as r:
         r.raise_for_status()
         data = await r.json()
     text = data["candidates"][0]["content"]["parts"][0]["text"]
@@ -296,7 +298,7 @@ async def run(args):
                 try:
                     verdict = await ask_gemini(session, gemini_key, gemini_model, repo, best)
                 except Exception as e:  # noqa: BLE001
-                    log.warning("Gemini 判斷失敗(%s),改用規則結果通過", e)
+                    log.warning("Gemini 判斷失敗(%s),改用規則結果通過", type(e).__name__)
                     verdict = {"accept": True, "reason": f"規則篩選通過(Gemini 呼叫失敗: {type(e).__name__})"}
                 if verdict.get("accept"):
                     reason = verdict.get("reason", "")
