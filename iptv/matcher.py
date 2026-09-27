@@ -49,8 +49,19 @@ _COUNTRY_KEYWORDS = [
 ]
 
 
+def _mostly_cjk(s: str, threshold: float = 0.6) -> bool:
+    """名稱是否以中文為主(排除「Fox新闻」這種外國頻道只加了幾個中文字當說明的情況)"""
+    letters = [ch for ch in s if ch.isalnum()]
+    if not letters:
+        return False
+    cjk = sum(1 for ch in letters if _CJK.match(ch))
+    return cjk / len(letters) >= threshold
+
+
 def _country_from_name(*names) -> str:
-    """依名稱裡的關鍵字判斷國家;都沒命中時,簡體字內容視為大陸頻道(TW/HK/MO 慣用繁體)"""
+    """依名稱裡的關鍵字判斷國家;都沒命中時,以中文為主的簡體字內容視為大陸頻道
+    (TW/HK/MO 慣用繁體;要求「以中文為主」是為了避免「Fox新聞」這種外國頻道
+    隨附中文說明字樣被誤判)"""
     for name in names:
         if not name:
             continue
@@ -58,7 +69,7 @@ def _country_from_name(*names) -> str:
             if pat.search(name):
                 return cc
     for name in names:
-        if name and _looks_simplified(name):
+        if name and _mostly_cjk(name) and _looks_simplified(name):
             return "CN"
     return ""
 

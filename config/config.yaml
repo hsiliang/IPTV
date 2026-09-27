@@ -63,8 +63,9 @@ filter:
     "geo-blocked", "購物", "购物", "shopping", "春晚", "点播", "點播", "更新时间", "更新時間",
     # 大陸補充來源(country 提示 CN)混進來的國際頻道,不在頻道資料庫裡,只能靠名稱關鍵字排除,
     # 否則會被誤標成 CN(這些不是中國頻道,是來源本身收錄了無關的國際新聞/娛樂頻道)
-    "Arirang", "Bloomberg", "CBC News", "Fox LiveNow", "KPop", "Newsmax",
+    "Arirang", "Bloomberg", "CBC News", "Fox LiveNow", "Fox新闻", "KPop", "Newsmax",
     "RT Doc", "RT Español", "RT Français", "Trace Sports", "WionNews", "Lego Channel", "Wild Planet",
+    "NextUp Live Comedy",
   ]
   exclude_url_keywords: []
   # 精準比對來源原始 group-title(不是子字串包含),用來排掉整組非電視頻道的雜訊,

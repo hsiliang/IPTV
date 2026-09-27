@@ -105,6 +105,24 @@ def apply_filters(streams, cfg):
     return out, reasons
 
 
+def dedupe_shared_logos(channels):
+    """同一個台標網址被多個不同頻道共用,幾乎都是來源資料本身貼錯(常見於自動採集工具:
+    整批頻道複製貼上時漏改 tvg-logo)。寧可沒台標也不要顯示錯的,一律清掉重複使用的網址。"""
+    by_logo = defaultdict(set)
+    for ch in channels:
+        if ch.logo:
+            by_logo[ch.logo].add(ch.gid)
+    bad = {url for url, gids in by_logo.items() if len(gids) > 1}
+    n = 0
+    for ch in channels:
+        if ch.logo in bad:
+            ch.logo = ""
+            n += 1
+    if n:
+        log.info("清除疑似誤植的共用台標:%d 個頻道 / %d 個重複網址", n, len(bad))
+    return n
+
+
 def cap_candidates(streams, n):
     groups = defaultdict(list)
     for s in streams:
@@ -181,6 +199,9 @@ async def run(args):
 
     # 5. 聚合擇優
     channels = build_channels(streams, cfg, checked)
+    n_bad_logo = dedupe_shared_logos(channels)
+    if n_bad_logo:
+        stats["清除誤植台標"] = n_bad_logo
     stats["頻道數"] = len(channels)
     stats["輸出線路"] = sum(len(c.streams) for c in channels)
     min_ch = int(cfg.get("output", {}).get("min_channels", 1))
