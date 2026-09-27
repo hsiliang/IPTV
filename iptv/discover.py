@@ -168,16 +168,37 @@ async def ask_gemini(session, api_key, model, repo, best):
     )
     # 用 header 帶 API key,不放進 URL query string,避免它出現在例外訊息 / 任何記錄 URL 的地方
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    body = {"contents": [{"parts": [{"text": prompt}]}]}
+    body = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        # 強制結構化 JSON 輸出,避免模型夾雜說明文字或 markdown code fence 導致解析失敗
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "responseSchema": {
+                "type": "OBJECT",
+                "properties": {
+                    "accept": {"type": "BOOLEAN"},
+                    "reason": {"type": "STRING"},
+                },
+                "required": ["accept", "reason"],
+            },
+        },
+    }
     headers = {"x-goog-api-key": api_key}
     async with session.post(url, json=body, headers=headers, timeout=aiohttp.ClientTimeout(total=30)) as r:
         r.raise_for_status()
         data = await r.json()
-    text = data["candidates"][0]["content"]["parts"][0]["text"]
-    m = re.search(r"\{.*\}", text, re.S)
-    if not m:
-        raise ValueError(f"Gemini 回應非預期格式: {text[:200]!r}")
-    return json.loads(m.group(0))
+    try:
+        text = data["candidates"][0]["content"]["parts"][0]["text"]
+    except (KeyError, IndexError) as e:
+        raise ValueError(f"Gemini 回應缺少內容({e}),可能被安全過濾攔截") from e
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # 保底:responseSchema 理論上已強制純 JSON,萬一模型仍夾雜文字才會走到這裡
+        m = re.search(r"\{.*\}", text, re.S)
+        if not m:
+            raise ValueError(f"Gemini 回應非預期格式: {text[:200]!r}")
+        return json.loads(m.group(0))
 
 
 def write_discovered(accepted):
