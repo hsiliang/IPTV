@@ -24,6 +24,8 @@ sources:
   - {url: https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u, country: CN, group: "大陸補充"}
   # 大陸(自動更新,原生中文頻道名):hujingguang/ChinaIPTV
   - {url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8, country: CN, group: "大陸補充"}
+  # 大陸/港澳台(全自動化採集測速工具,467 star,每日更新):CCSH/IPTV
+  - {url: https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u, group: "大陸港澳台補充"}
   # 台灣 / 香港 / 澳門 補充:hujingguang/ChinaIPTV
   - {url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/TaiWan.m3u8, country: TW, group: "台灣補充"}
   - {url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/HongKong.m3u8, country: HK, group: "香港補充"}
@@ -55,7 +57,7 @@ filter:
   exclude_nsfw: true
   exclude_closed: true
   include_keywords: []
-  exclude_keywords: ["geo-blocked", "購物", "购物", "shopping", "春晚", "点播", "點播"]
+  exclude_keywords: ["geo-blocked", "購物", "购物", "shopping", "春晚", "点播", "點播", "更新时间", "更新時間"]
   exclude_url_keywords: []
   max_candidates_per_channel: 8    # 每個頻道最多測幾條線路
 
