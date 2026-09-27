@@ -106,3 +106,16 @@ epg:
   sources:                     # XMLTV 格式(.xml 或 .xml.gz),依序優先
     - https://epg.112114.xyz/pp.xml
     # - https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz  # 全球,體積大
+
+# ---------- 7. 來源自動探索(選用,由 .github/workflows/discover-sources.yml 每週執行) ----------
+# 探索邏輯見 iptv/discover.py;結果會開 PR 讓人工核准,不會自動改動這份設定檔本身。
+discovery:
+  keywords: ["iptv 直播源", "iptv m3u", "直播源 m3u8", "IPTV playlist"]
+  min_stars: 30                     # repo star 數門檻
+  max_age_days: 60                  # 只看最近 N 天內有更新(push)的 repo
+  min_entries: 30                   # 候選清單檔至少要有幾條頻道才考慮
+  min_cjk_ratio: 0.3                # 頻道名稱含中文字元的比例門檻(避免抓到純國際頻道清單)
+  max_candidates_per_run: 8         # 每次最多深入下載/檢查幾個 repo(控制 API 與 Gemini 用量)
+  recheck_rejected_after_days: 90   # 被拒絕的 repo,幾天後才重新檢查(repo 可能後來改善了)
+  # 需要在 GitHub repo Settings → Secrets and variables → Actions 設定 GEMINI_API_KEY
+  # 才會啟用 AI 複核;沒設定的話只套用上面的規則式篩選。

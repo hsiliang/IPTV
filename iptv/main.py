@@ -29,7 +29,17 @@ DEFAULT_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 def load_config(path):
     with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+        cfg = yaml.safe_load(f) or {}
+    # 自動探索(見 iptv/discover.py + .github/workflows/discover-sources.yml)通過
+    # 人工核准的候選來源,合併進正式抓取清單
+    extra_path = os.path.join(os.path.dirname(path), "discovered_sources.yaml")
+    if os.path.exists(extra_path):
+        with open(extra_path, encoding="utf-8") as f:
+            extra = yaml.safe_load(f) or {}
+        extra_sources = extra.get("sources") or []
+        cfg["sources"] = [*(cfg.get("sources") or []), *extra_sources]
+        log.info("併入自動探索來源 %d 條 (%s)", len(extra_sources), extra_path)
+    return cfg
 
 
 def public_base(cfg):

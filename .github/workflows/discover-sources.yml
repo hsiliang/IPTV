@@ -1,0 +1,60 @@
+name: Discover IPTV Sources
+
+on:
+  schedule:
+    - cron: "0 18 * * 0"    # UTC 週日 18:00 = 台北時間週一 02:00,每週一次
+  workflow_dispatch:         # 支援手動觸發
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: iptv-discover
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Discover new sources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m iptv.discover -v
+
+      - name: Persist discovery state to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- config/discovery_state.json; then
+            git add config/discovery_state.json
+            git commit -q -m "chore: 更新來源探索 state ($(date -u '+%Y-%m-%d'))"
+            git push
+          else
+            echo "discovery_state.json 無變化,略過 commit"
+          fi
+
+      # 只有候選來源檔有異動(新增/移除項目)才會開 PR;人工檢查網址後再合併,
+      # 合併時會觸發 update.yml (config/** 有變動) 立刻套用新來源。
+      - name: Open PR with candidate sources
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: 新增自動探索的候選 IPTV 來源"
+          branch: auto/discover-sources
+          delete-branch: true
+          title: "🔍 自動探索:候選 IPTV 來源"
+          body-path: discovery_report.md
+          add-paths: config/discovered_sources.yaml
