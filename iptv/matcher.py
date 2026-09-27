@@ -19,6 +19,18 @@ except ImportError:  # pragma: no cover
 
 log = logging.getLogger(__name__)
 _DIGITS = re.compile(r"\D")
+_CJK = re.compile(r"[㐀-鿿]")
+
+
+def _prefer_display(name_disp: str, tvg_disp: str) -> str:
+    """未命中別名/資料庫時的顯示名稱:同時有兩種來源時優先選含中文的那個"""
+    if not name_disp:
+        return tvg_disp
+    if not tvg_disp or tvg_disp == name_disp:
+        return name_disp
+    if _CJK.search(tvg_disp) and not _CJK.search(name_disp):
+        return tvg_disp
+    return name_disp
 
 
 class Matcher:
@@ -149,7 +161,10 @@ class Matcher:
         if display:
             s.alias_hit, s.display, s.key = True, display, normalize(display)
         else:
-            s.display, s.key = clean_display(s.name) or s.tvg_name, raw_key
+            name_disp = clean_display(s.name)
+            tvg_disp = clean_display(s.tvg_name) if s.tvg_name else ""
+            s.display = _prefer_display(name_disp, tvg_disp) or tvg_disp or name_disp
+            s.key = raw_key
 
         ch = None
         if s.tvg_id:
