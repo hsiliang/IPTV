@@ -1,0 +1,7 @@
+# 自訂來源(DIYP / TVBox txt 格式),以 # 開頭為註解
+# 也可以把這個檔案換成 .m3u 格式,程式會自動判斷
+#
+# 範例:
+# 我的頻道,#genre#
+# 測試頻道,http://example.com/live/index.m3u8
+# 多線路頻道,http://a.example.com/1.m3u8#http://b.example.com/1.m3u8

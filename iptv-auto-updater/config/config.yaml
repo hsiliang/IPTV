@@ -1,0 +1,94 @@
+# =====================================================================
+#  IPTV 直播源自動更新工具 設定檔
+# =====================================================================
+
+# ---------- 1. 採集來源 ----------
+# 支援 http(s) 遠端地址與本地檔案;m3u / txt 格式自動判斷
+# iptv-org 的 countries/xx.m3u 會自動推測國家;其他來源可寫成 {url: ..., country: TW, group: 分組}
+sources:
+  - https://iptv-org.github.io/iptv/countries/tw.m3u
+  - https://iptv-org.github.io/iptv/countries/hk.m3u
+  - https://iptv-org.github.io/iptv/countries/mo.m3u
+  - https://iptv-org.github.io/iptv/countries/cn.m3u
+  - https://iptv-org.github.io/iptv/countries/sg.m3u
+  - https://iptv-org.github.io/iptv/countries/jp.m3u
+  - https://iptv-org.github.io/iptv/countries/us.m3u
+  # 想要全球頻道可改用(約上萬條,測速較久):
+  # - https://iptv-org.github.io/iptv/index.m3u
+  - {url: config/custom.txt, country: TW}
+
+fetch:
+  timeout: 30
+  retries: 2
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+# ---------- 2. 頻道資料庫(名稱 / 國家 / 分類 / 台標) ----------
+database:
+  channels:   https://iptv-org.github.io/api/channels.json
+  logos:      https://iptv-org.github.io/api/logos.json
+  countries:  https://iptv-org.github.io/api/countries.json
+  categories: https://iptv-org.github.io/api/categories.json
+  alias_file: config/alias.yaml
+  fuzzy_threshold: 92          # 模糊比對門檻 0-100,0 = 關閉
+  prefer_database_name: false  # true:未命中別名時改用資料庫(英文)名稱
+  preferred_countries: [TW, HK, MO, CN, SG]   # 同名頻道衝突時優先的國家
+  # 資料庫無台標時的備援模板,可用 {name} {key}
+  logo_template: ""
+  # logo_template: "https://live.fanmingming.cn/tv/{name}.png"
+
+# ---------- 3. 過濾 ----------
+filter:
+  countries: []                # 只保留這些國家,例如 [TW, HK];空 = 全部
+  keep_unmatched: true         # 保留資料庫與別名都沒對上的頻道
+  exclude_nsfw: true
+  exclude_closed: true
+  include_keywords: []
+  exclude_keywords: ["geo-blocked", "購物", "购物", "shopping"]
+  exclude_url_keywords: []
+  max_candidates_per_channel: 8    # 每個頻道最多測幾條線路
+
+# ---------- 4. 效驗 / 測速(只走 IPv4) ----------
+check:
+  enabled: true
+  concurrency: 64
+  limit_per_host: 8
+  timeout: 8                   # 連線 / 讀取逾時 (秒)
+  speed_duration: 4            # 每條線路測速時長 (秒)
+  min_speed: 100               # 最低速度 KB/s(約 0.8 Mbps)
+  max_latency: 5               # 最大首包延遲 (秒),0 = 不限
+  min_height: 0                # 最低解析度,例如 720;0 = 不限
+  allow_private_ip: false      # 是否允許內網位址
+  retries: 1
+
+# ---------- 5. 輸出 ----------
+output:
+  dir: output
+  filename: live               # → live.m3u / live.txt
+  max_per_channel: 3           # 每頻道保留最快的 N 條
+  min_channels: 10             # 可用頻道少於此數就不輸出(避免覆蓋成空清單)
+  txt: true
+  per_country: true            # 另外輸出 countries/xx.m3u
+  public_base_url: ""          # 空 = 自動使用 raw.githubusercontent.com/<repo>/release
+  group_mode: rules            # rules / country / category / source
+  group_rules:                 # 由上而下,先符合者勝;pattern 為正則,比對顯示名稱
+    - {name: "📺 央視頻道", pattern: "^CCTV|^CGTN"}
+    - {name: "📡 衛視頻道", pattern: "衛視|卫视"}
+    - {name: "🇹🇼 台灣頻道", countries: [TW]}
+    - {name: "🇭🇰 香港頻道", countries: [HK]}
+    - {name: "🇲🇴 澳門頻道", countries: [MO]}
+    - {name: "🇨🇳 大陸頻道", countries: [CN]}
+    - {name: "📰 新聞頻道", categories: [news]}
+    - {name: "🎬 電影頻道", categories: [movies]}
+    - {name: "⚽ 體育頻道", categories: [sports]}
+  group_fallback: country      # 規則都不符時:country / category / source / 固定名稱
+  group_order: []              # 自訂分組順序(未列出者依規則順序,其餘字母序)
+
+# ---------- 6. 節目單 EPG ----------
+epg:
+  enabled: true
+  days: 3                      # 保留未來幾天
+  file: epg.xml.gz
+  x_tvg_url: ""                # 若不自建,可直接填外部 EPG 地址寫入 m3u 標頭
+  sources:                     # XMLTV 格式(.xml 或 .xml.gz),依序優先
+    - https://epg.112114.xyz/pp.xml
+    # - https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz  # 全球,體積大
