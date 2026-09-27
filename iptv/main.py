@@ -190,7 +190,8 @@ async def run(args):
 
     # 7. 輸出
     stats["耗時秒"] = round(time.monotonic() - t0, 1)
-    write_outputs(channels, cfg, Grouper(cfg, matcher), epg_url, stats, base)
+    write_outputs(channels, cfg, Grouper(cfg, matcher), epg_url, stats, base,
+                  streams=streams if checked else None)
     for k, v in stats.items():
         log.info("%-8s %s", k, v)
     return 0
