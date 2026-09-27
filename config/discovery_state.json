@@ -19,9 +19,25 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "TNT-Likely/xplayer": {
+  "checked_at": "2026-09-27T21:00:35.941456+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "akiralereal/iptv": {
   "checked_at": "2026-09-27T16:50:15.388665+00:00",
   "reason": "頻道數過少(28)",
+  "status": "rejected"
+ },
+ "best-fan/iptv-sources": {
+  "checked_at": "2026-09-27T21:00:06.809012+00:00",
+  "file": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
+  "reason": "該 repo 有適度的 star 數、近期活躍更新，且頻道抽樣包含常見的主流中文電視台直播源。",
+  "status": "accepted"
+ },
+ "doms9/iptv": {
+  "checked_at": "2026-09-27T21:00:11.514589+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
  "hujingguang/ChinaIPTV": {
@@ -30,15 +46,43 @@
   "reason": "該 repo 的 star 數高、近期有更新，且頻道名稱中文比例達 100% 且抽樣內容為合適的中文電視台直播源。",
   "status": "accepted"
  },
+ "jia070310/4K-IPTV-M3U": {
+  "checked_at": "2026-09-27T21:00:11.370176+00:00",
+  "reason": "頻道數過少(0)",
+  "status": "rejected"
+ },
+ "jia070310/lemonTV": {
+  "checked_at": "2026-09-27T21:00:11.789904+00:00",
+  "file": "https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u",
+  "reason": "該 repo 擁有穩定的 star 數且頻道內容以高比例的中文官媒及主流頻道為主，適合納入自動抓取來源。",
+  "status": "accepted"
+ },
  "mytv-android/China-TV-Live-M3U8": {
   "checked_at": "2026-09-27T16:50:16.813695+00:00",
   "file": "https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/main/webview.m3u",
   "reason": "該倉庫來源於官方網站即時抓取，頻道名稱規範且涵蓋主要官媒，具備良好的穩定性與品質。",
   "status": "accepted"
  },
+ "ouomj/my-iptv": {
+  "checked_at": "2026-09-27T21:00:10.962691+00:00",
+  "reason": "頻道數過少(1)",
+  "status": "rejected"
+ },
  "yuanzl77/IPTV": {
   "checked_at": "2026-09-27T16:50:13.297574+00:00",
   "reason": "頻道數過少(0)",
   "status": "rejected"
+ },
+ "zhi35/iptv": {
+  "checked_at": "2026-09-27T21:00:09.460616+00:00",
+  "file": "https://raw.githubusercontent.com/zhi35/iptv/master/iptv.m3u",
+  "reason": "頻道全為中文且涵蓋主流央視，更新頻繁且符合自動抓取需求。",
+  "status": "accepted"
+ },
+ "zwc456baby/iptv_alive": {
+  "checked_at": "2026-09-27T21:00:08.280778+00:00",
+  "file": "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.m3u",
+  "reason": "該倉庫穩定更新且包含完整的中文地方台與衛視頻道，適合納入自動抓取來源。",
+  "status": "accepted"
  }
 }
