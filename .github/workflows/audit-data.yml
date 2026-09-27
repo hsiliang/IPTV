@@ -1,0 +1,50 @@
+name: Audit Channel Data
+
+on:
+  schedule:
+    - cron: "0 19 * * 3"    # UTC 週三 19:00 = 台北時間週四 03:00,每週一次
+  workflow_dispatch:         # 支援手動觸發
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: iptv-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Audit channel names / countries / logos
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m iptv.audit -v
+
+      # 台標問題(共用同一張圖)已經在稽核執行時由 iptv/main.py 的邏輯清掉,不需要另外處理。
+      # 國家/中文名建議是直接寫進 config/alias.yaml、config/config.yaml 本身(文字插入,
+      # 保留原本的註解),所以這裡開 PR 呈現的就是實際會生效的 diff,而不是另一份待轉換的清單。
+      - name: Open PR with suggested fixes
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: 稽核建議 — 頻道國家/中文名稱修正"
+          branch: auto/audit-data
+          delete-branch: true
+          title: "🔍 資料稽核:頻道國家 / 中文名稱建議修正"
+          body-path: audit_report.md
+          add-paths: |
+            config/alias.yaml
+            config/config.yaml

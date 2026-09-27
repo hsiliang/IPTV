@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .venv/
 discovery_report.md
+audit_report.md
