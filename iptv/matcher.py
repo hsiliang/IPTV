@@ -21,6 +21,47 @@ log = logging.getLogger(__name__)
 _DIGITS = re.compile(r"\D")
 _CJK = re.compile(r"[㐀-鿿]")
 
+try:  # 簡體判斷(可選,缺套件時退化成永遠判斷失敗,不影響其他邏輯)
+    from opencc import OpenCC
+
+    _s2t = OpenCC("s2t")
+
+    def _looks_simplified(s: str) -> bool:
+        return bool(s) and _s2t.convert(s) != s
+except Exception:  # noqa: BLE001
+    def _looks_simplified(s: str) -> bool:
+        return False
+
+
+# 頻道名稱裡的強特徵關鍵字 → 國家/地區,用來修正「頻道資料庫沒收錄、只能靠來源
+# 猜測國家」導致的誤判。由上而下、由窄而寬,愈前面愈具體、優先權愈高。
+_COUNTRY_KEYWORDS = [
+    ("MO", re.compile(r"澳門|澳门|澳视|TDM", re.I)),
+    # TVB(?!S):避免誤配到台灣的 TVBS(名稱含 TVB 子字串,但跟香港 TVB 是不同頻道)
+    # R\.?T?\.?HK:同時涵蓋 RTHK 與部分來源打字漏字的 RHK(香港電台)
+    ("HK", re.compile(r"TVB(?!S)|ViuTV|R\.?T?\.?HK|無綫|无线|翡翠台|明珠台|鳳凰衛視|凤凰卫视|香港開電視|香港开电视|HOY\s*TV",
+                      re.I)),
+    ("TW", re.compile(
+        r"民視|民视|三立|中天|東森|东森|台視|台视|中視|中视|華視|华视|公視|公视|年代新聞|年代新闻|"
+        r"非凡新聞|非凡新闻|壹電視|壹电视|寰宇新聞|寰宇新闻|鏡電視|镜电视|客家電視|客家电视|"
+        r"原住民族|好消息電視|好消息电视|大愛|大爱|momo|TVBS", re.I)),
+    ("CN", re.compile(r"CCTV|CGTN|央視|央视|衛視|卫视", re.I)),
+]
+
+
+def _country_from_name(*names) -> str:
+    """依名稱裡的關鍵字判斷國家;都沒命中時,簡體字內容視為大陸頻道(TW/HK/MO 慣用繁體)"""
+    for name in names:
+        if not name:
+            continue
+        for cc, pat in _COUNTRY_KEYWORDS:
+            if pat.search(name):
+                return cc
+    for name in names:
+        if name and _looks_simplified(name):
+            return "CN"
+    return ""
+
 
 def _prefer_display(name_disp: str, tvg_disp: str) -> str:
     """未命中別名/資料庫時的顯示名稱:同時有兩種來源時優先選含中文的那個"""
@@ -43,6 +84,7 @@ class Matcher:
         self.pref = [c.upper() for c in db.get("preferred_countries") or []]
 
         self.alias: dict[str, str] = {}
+        self.alias_country: dict[str, str] = {}
         self.by_id: dict[str, dict] = {}
         self.by_key: dict[str, list] = defaultdict(list)
         self.logos: dict[str, str] = {}
@@ -62,12 +104,15 @@ class Matcher:
         except FileNotFoundError:
             log.warning("找不到別名檔 %s", path)
             return
-        for display, names in data.items():
-            display = str(display)
-            for n in [display, *(names or [])]:
-                k = normalize(str(n))
-                if k:
-                    self.alias.setdefault(k, display)
+        for country, entries in data.items():
+            country = str(country).upper()
+            for display, names in (entries or {}).items():
+                display = str(display)
+                for n in [display, *(names or [])]:
+                    k = normalize(str(n))
+                    if k:
+                        self.alias.setdefault(k, display)
+                        self.alias_country.setdefault(k, country)
         log.info("載入別名 %d 條", len(self.alias))
 
     async def load(self, session):
@@ -157,7 +202,9 @@ class Matcher:
 
     def match(self, s):
         raw_key = normalize(s.name) or normalize(s.tvg_name)
-        display = self.alias.get(raw_key) or (self.alias.get(normalize(s.tvg_name)) if s.tvg_name else None)
+        tvg_key = normalize(s.tvg_name) if s.tvg_name else ""
+        alias_key = raw_key if raw_key in self.alias else (tvg_key if tvg_key in self.alias else None)
+        display = self.alias.get(alias_key) if alias_key else None
         if display:
             s.alias_hit, s.display, s.key = True, display, normalize(display)
         else:
@@ -175,8 +222,12 @@ class Matcher:
             ch = self._lookup(raw_key, s.country_hint)
         if ch:
             self.apply(s, ch)
-        elif s.country_hint:
-            s.country = s.country_hint
+
+        # 國家判斷優先權(由高到低):人工別名表 > 頻道資料庫 > 頻道名稱關鍵字/簡繁判斷 > 來源提示
+        alias_country = self.alias_country.get(alias_key) if alias_key else None
+        name_country = _country_from_name(s.display, s.name, s.tvg_name)
+        s.country = alias_country or s.country or name_country or s.country_hint or ""
+
         if not s.logo and self.logo_template:
             s.logo = self.logo_template.format(name=s.display, key=s.key)
         return s

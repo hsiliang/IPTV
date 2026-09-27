@@ -73,6 +73,7 @@ def apply_filters(streams, cfg):
     inc = [k.lower() for k in f.get("include_keywords") or []]
     exc = [k.lower() for k in f.get("exclude_keywords") or []]
     exc_url = f.get("exclude_url_keywords") or []
+    exc_groups = {g.lower() for g in f.get("exclude_groups") or []}
     out, reasons = [], Counter()
     for s in streams:
         p = urlsplit(s.url)
@@ -85,6 +86,8 @@ def apply_filters(streams, cfg):
             reasons["IPv6位址"] += 1
         elif inc and not any(k in text for k in inc):
             reasons["未含關鍵字"] += 1
+        elif s.group and s.group.lower() in exc_groups:
+            reasons["排除分組"] += 1
         elif any(k in text for k in exc):
             reasons["排除關鍵字"] += 1
         elif any(k in s.url for k in exc_url):

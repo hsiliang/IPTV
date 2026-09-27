@@ -25,7 +25,9 @@ sources:
   # 大陸(自動更新,原生中文頻道名):hujingguang/ChinaIPTV
   - {url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8, country: CN, group: "大陸補充"}
   # 大陸/港澳台(全自動化採集測速工具,467 star,每日更新):CCSH/IPTV
-  - {url: https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u, group: "大陸港澳台補充"}
+  # country 給 CN 當底:裡面絕大多數是大陸地方台;少數港澳台頻道(如鳳凰衛視、翡翠台)
+  # 會被 alias.yaml 或頻道資料庫的比對結果覆蓋回正確國家,不受這個提示影響
+  - {url: https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u, country: CN, group: "大陸港澳台補充"}
   # 台灣 / 香港 / 澳門 補充:hujingguang/ChinaIPTV
   - {url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/TaiWan.m3u8, country: TW, group: "台灣補充"}
   - {url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/HongKong.m3u8, country: HK, group: "香港補充"}
@@ -57,8 +59,17 @@ filter:
   exclude_nsfw: true
   exclude_closed: true
   include_keywords: []
-  exclude_keywords: ["geo-blocked", "購物", "购物", "shopping", "春晚", "点播", "點播", "更新时间", "更新時間"]
+  exclude_keywords: [
+    "geo-blocked", "購物", "购物", "shopping", "春晚", "点播", "點播", "更新时间", "更新時間",
+    # 大陸補充來源(country 提示 CN)混進來的國際頻道,不在頻道資料庫裡,只能靠名稱關鍵字排除,
+    # 否則會被誤標成 CN(這些不是中國頻道,是來源本身收錄了無關的國際新聞/娛樂頻道)
+    "Arirang", "Bloomberg", "CBC News", "Fox LiveNow", "KPop", "Newsmax",
+    "RT Doc", "RT Español", "RT Français", "Trace Sports", "WionNews", "Lego Channel", "Wild Planet",
+  ]
   exclude_url_keywords: []
+  # 精準比對來源原始 group-title(不是子字串包含),用來排掉整組非電視頻道的雜訊,
+  # 不會像 exclude_keywords 那樣可能誤傷同名字串出現在正常頻道名稱裡的情況
+  exclude_groups: ["直播中国", "MTV"]   # CCSH/IPTV: 景區直播鏡頭、DJ/情歌合輯,都不是電視頻道
   max_candidates_per_channel: 8    # 每個頻道最多測幾條線路
 
 # ---------- 4. 效驗 / 測速(只走 IPv4) ----------
