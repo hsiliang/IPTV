@@ -119,3 +119,13 @@ discovery:
   recheck_rejected_after_days: 90   # 被拒絕的 repo,幾天後才重新檢查(repo 可能後來改善了)
   # 需要在 GitHub repo Settings → Secrets and variables → Actions 設定 GEMINI_API_KEY
   # 才會啟用 AI 複核;沒設定的話只套用上面的規則式篩選。
+
+# ---------- 8. 來源健康追蹤 / 自動剔除失效來源(見 iptv/health.py) ----------
+# 每次有做測速的執行(update.yml)都會更新 config/source_health.json,
+# 記錄每個來源這次貢獻了幾條「通過測速」的頻道。
+source_health:
+  enabled: true
+  history_len: 20                     # 每個來源保留最近幾次執行的紀錄
+  prune_after_consecutive_zero: 12    # 連續幾次執行都 0 條可用頻道,自動從 discovered_sources.yaml 移除
+                                       # (只影響自動探索來源;config.yaml 手動列的來源不會被自動刪除)
+  warn_after_consecutive_zero: 4      # 連續幾次 0 條可用頻道,就在 stats/report.json 裡警示(含手動來源)

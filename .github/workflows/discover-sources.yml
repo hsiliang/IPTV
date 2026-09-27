@@ -41,7 +41,7 @@ jobs:
           git add config/discovery_state.json
           # 用 --cached 才抓得到「新建立的檔案」;git diff(不含 --cached)對 untracked 檔案永遠是空的
           if ! git diff --cached --quiet -- config/discovery_state.json; then
-            git commit -q -m "chore: 更新來源探索 state ($(date -u '+%Y-%m-%d'))"
+            git commit -q -m "chore: 更新來源探索 state ($(date -u '+%Y-%m-%d')) [skip ci]"
             git push
           else
             echo "discovery_state.json 無變化,略過 commit"

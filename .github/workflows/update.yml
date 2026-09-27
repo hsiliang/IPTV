@@ -41,6 +41,22 @@ jobs:
       - name: Collect / check / build
         run: python -m iptv.main -c config/config.yaml
 
+      # 記錄各來源健康狀況、剔除持續失效的自動探索來源(見 iptv/health.py)。
+      # commit 訊息帶 [skip ci],避免這個 commit(改到 config/**)又觸發本 workflow 造成無限迴圈。
+      - name: Persist source health to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in config/source_health.json config/discovered_sources.yaml; do
+            [ -f "$f" ] && git add "$f"
+          done
+          if ! git diff --cached --quiet; then
+            git commit -q -m "chore: 更新來源健康記錄 [skip ci]"
+            git push
+          else
+            echo "來源健康記錄無變化,略過 commit"
+          fi
+
       - name: Publish to ${{ env.PUBLISH_BRANCH }} branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

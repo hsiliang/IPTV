@@ -18,6 +18,7 @@ import yaml
 from .checker import Checker
 from .epg import EPGBuilder
 from .fetcher import collect
+from .health import update_and_prune
 from .matcher import Matcher
 from .models import Channel
 from .output import Grouper, write_outputs
@@ -169,6 +170,11 @@ async def run(args):
         await Checker(cfg, ua).run(streams)
         stats["可用線路"] = sum(1 for s in streams if s.ok)
         stats["失敗原因"] = dict(Counter(_reason(s.error) for s in streams if not s.ok).most_common(15))
+        health = update_and_prune(streams, cfg)
+        if health.get("pruned"):
+            stats["來源健康-已剔除"] = {u: n for u, n in health["pruned"]}
+        if health.get("warnings"):
+            stats["來源健康-警示"] = {u: n for u, n in health["warnings"]}
 
     # 5. 聚合擇優
     channels = build_channels(streams, cfg, checked)
