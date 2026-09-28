@@ -9,6 +9,11 @@
   "reason": "頻道抽樣全數重複且過度集中於單一頻道，品質不穩定且缺乏多樣性。",
   "status": "rejected"
  },
+ "Cyogenus/XTREME-IPTV-PLAYER-by-MY-1": {
+  "checked_at": "2026-09-28T03:15:13.020893+00:00",
+  "reason": "頻道數過少(0)",
+  "status": "rejected"
+ },
  "Guovin/iptv-api": {
   "checked_at": "2026-09-27T16:50:12.889057+00:00",
   "reason": "找不到符合格式的頻道清單檔案",
@@ -24,6 +29,11 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "abusaeeidx/IPTV-Scraper-Zilla": {
+  "checked_at": "2026-09-28T03:15:12.586587+00:00",
+  "reason": "中文頻道比例過低(0%)",
+  "status": "rejected"
+ },
  "akiralereal/iptv": {
   "checked_at": "2026-09-27T16:50:15.388665+00:00",
   "reason": "頻道數過少(28)",
@@ -34,6 +44,16 @@
   "file": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "reason": "該 repo 有適度的 star 數、近期活躍更新，且頻道抽樣包含常見的主流中文電視台直播源。",
   "status": "accepted"
+ },
+ "binhex/iptv": {
+  "checked_at": "2026-09-28T03:15:14.361393+00:00",
+  "reason": "中文頻道比例過低(0%)",
+  "status": "rejected"
+ },
+ "dhasap/dhanytv": {
+  "checked_at": "2026-09-28T03:15:13.614271+00:00",
+  "reason": "中文頻道比例過低(0%)",
+  "status": "rejected"
  },
  "doms9/iptv": {
   "checked_at": "2026-09-27T21:00:11.514589+00:00",
@@ -57,6 +77,16 @@
   "reason": "該 repo 擁有穩定的 star 數且頻道內容以高比例的中文官媒及主流頻道為主，適合納入自動抓取來源。",
   "status": "accepted"
  },
+ "kimwang1978/collect-txt": {
+  "checked_at": "2026-09-28T03:15:10.473239+00:00",
+  "reason": "頻道數過少(0)",
+  "status": "rejected"
+ },
+ "laoma2053/awesome-zhuiju-free": {
+  "checked_at": "2026-09-28T03:15:09.450373+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "mytv-android/China-TV-Live-M3U8": {
   "checked_at": "2026-09-27T16:50:16.813695+00:00",
   "file": "https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/main/webview.m3u",
@@ -68,9 +98,20 @@
   "reason": "頻道數過少(1)",
   "status": "rejected"
  },
+ "xisohi/CHINA-IPTV": {
+  "checked_at": "2026-09-28T03:15:10.973728+00:00",
+  "file": "https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/TV/channel_mapping.txt",
+  "reason": "该仓库星标数较高，更新活跃，且包含丰富的中文主流电视频道直播源。",
+  "status": "accepted"
+ },
  "yuanzl77/IPTV": {
   "checked_at": "2026-09-27T16:50:13.297574+00:00",
   "reason": "頻道數過少(0)",
+  "status": "rejected"
+ },
+ "yuluoos/TVBox-tvs": {
+  "checked_at": "2026-09-28T03:15:13.212202+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
  "zhi35/iptv": {
