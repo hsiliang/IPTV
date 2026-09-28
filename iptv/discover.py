@@ -148,6 +148,12 @@ async def evaluate_file(session, name, url, rules):
     n = len(streams)
     if n < rules["min_entries"]:
         return None, f"頻道數過少({n})"
+    # parse_txt() 對「名稱,網址」格式不會驗證第二欄是不是真的網址,像 xisohi/CHINA-IPTV 的
+    # channel_mapping.txt 這種其實是「別名,標準名稱」對照表的檔案,兩欄都是頻道名不是網址,
+    # 一樣會被解析成看似正常的 Stream,但這種來源實際上一條可用線路都貢獻不了
+    with_url = sum(1 for s in streams if s.url.startswith(("http://", "https://", "rtmp://", "rtsp://")))
+    if with_url / n < 0.5:
+        return None, f"看起來不是真正的頻道清單(只有 {with_url}/{n} 條像網址,可能是名稱對照表之類的檔案)"
     cjk = sum(1 for s in streams if _CJK.search(s.name or s.tvg_name or ""))
     ratio = cjk / n if n else 0
     if ratio < rules["min_cjk_ratio"]:
