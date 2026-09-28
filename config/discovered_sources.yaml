@@ -39,3 +39,9 @@ sources:
   _stars: 206
   _checked_at: '2026-09-27'
   _reason: 該 repo 擁有穩定的 star 數且頻道內容以高比例的中文官媒及主流頻道為主，適合納入自動抓取來源。
+- url: https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/TV/channel_mapping.txt
+  group: 自動探索補充
+  _repo: xisohi/CHINA-IPTV
+  _stars: 1843
+  _checked_at: '2026-09-28'
+  _reason: 该仓库星标数较高，更新活跃，且包含丰富的中文主流电视频道直播源。
