@@ -78,15 +78,6 @@ python -m iptv.main --limit 100 -v                  # 只測前 100 條,顯示�
 - 公開儲存庫的排程 workflow 在 60 天沒有提交時會被 GitHub 自動停用,需要手動重新啟用。
 - 全球來源 (`index.m3u`) 有上萬條線路,請調高 `concurrency` 或降低 `speed_duration`,並注意 workflow 的 `timeout-minutes`。
 
-## 參考的專案
-
-設計時參考了以下 GitHub 專案的思路與資料格式:
-
-- [iptv-org/iptv](https://github.com/iptv-org/iptv):公開直播源整理,採集來源預設使用其分國家清單
-- [iptv-org/database](https://github.com/iptv-org/database) / [iptv-org/api](https://github.com/iptv-org/api):頻道、台標、國家、分類資料庫(匹配核心)
-- [iptv-org/epg](https://github.com/iptv-org/epg):EPG 頻道 ID 規範(`CCTV1.cn` 形式),可自建 guide 後加入 `epg.sources`
-- [Guovin/iptv-api](https://github.com/Guovin/iptv-api):測速擇優、分組模板、Actions 定時更新的整體流程
-- [fanmingming/live](https://github.com/fanmingming/live):m3u / txt 輸出格式與台標命名方式
 
 ## 免責聲明
 
