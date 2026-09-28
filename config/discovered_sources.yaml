@@ -15,3 +15,27 @@ sources:
   _stars: 335
   _checked_at: '2026-09-27'
   _reason: 該倉庫來源於官方網站即時抓取，頻道名稱規範且涵蓋主要官媒，具備良好的穩定性與品質。
+- url: https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8
+  group: 自動探索補充
+  _repo: best-fan/iptv-sources
+  _stars: 762
+  _checked_at: '2026-09-27'
+  _reason: 該 repo 有適度的 star 數、近期活躍更新，且頻道抽樣包含常見的主流中文電視台直播源。
+- url: https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.m3u
+  group: 自動探索補充
+  _repo: zwc456baby/iptv_alive
+  _stars: 710
+  _checked_at: '2026-09-27'
+  _reason: 該倉庫穩定更新且包含完整的中文地方台與衛視頻道，適合納入自動抓取來源。
+- url: https://raw.githubusercontent.com/zhi35/iptv/master/iptv.m3u
+  group: 自動探索補充
+  _repo: zhi35/iptv
+  _stars: 468
+  _checked_at: '2026-09-27'
+  _reason: 頻道全為中文且涵蓋主流央視，更新頻繁且符合自動抓取需求。
+- url: https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u
+  group: 自動探索補充
+  _repo: jia070310/lemonTV
+  _stars: 206
+  _checked_at: '2026-09-27'
+  _reason: 該 repo 擁有穩定的 star 數且頻道內容以高比例的中文官媒及主流頻道為主，適合納入自動抓取來源。
