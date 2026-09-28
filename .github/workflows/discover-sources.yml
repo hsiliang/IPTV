@@ -40,7 +40,9 @@ jobs:
       - name: Check domains against China's firewall (GreatFire.org)
         run: python -m iptv.gfw_check -v
 
+      # continue-on-error:這步只是記錄資料,失敗也不該擋到下面開 PR 的步驟
       - name: Persist discovery state / GFW status to main
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,7 +50,14 @@ jobs:
           # 用 --cached 才抓得到「新建立的檔案」;git diff(不含 --cached)對 untracked 檔案永遠是空的
           if ! git diff --cached --quiet; then
             git commit -q -m "chore: 更新來源探索 state / GFW 封鎖狀態 ($(date -u '+%Y-%m-%d')) [skip ci]"
-            git push
+            # 跟 update.yml 的 workflow 各自獨立 commit 到 main,可能會撞在一起;
+            # push 被拒絕(非 fast-forward)時 rebase 到最新 main 再重試幾次
+            for i in 1 2 3 4 5; do
+              git push && break
+              echo "push 被拒絕,rebase 到最新 main 後重試($i)..."
+              git fetch origin main
+              git rebase origin/main
+            done
           else
             echo "無變化,略過 commit"
           fi
