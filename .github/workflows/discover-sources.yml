@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
           cache: pip
@@ -56,7 +56,7 @@ jobs:
       # 只有候選來源檔有異動(新增/移除項目)才會開 PR;人工檢查網址後再合併,
       # 合併時會觸發 update.yml (config/** 有變動) 立刻套用新來源。
       - name: Open PR with candidate sources
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "feat: 新增自動探索的候選 IPTV 來源"
