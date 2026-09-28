@@ -1,7 +1,6 @@
 # 由 .github/workflows/discover-sources.yml 每週自動探索產生
 # 結果會開 Pull Request,人工核准合併後才會被正式抓取(main.py 啟動時自動併入 sources)
 # 底線開頭欄位(_repo/_stars/_checked_at/_reason)僅供人工參考,程式讀取時會忽略
-# (本檔案也會被 iptv/health.py 自動剔除持續失效的項目)
 
 sources:
 - url: https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV1_ALL.m3u8
@@ -34,3 +33,27 @@ sources:
   _stars: 206
   _checked_at: '2026-09-27'
   _reason: 該 repo 擁有穩定的 star 數且頻道內容以高比例的中文官媒及主流頻道為主，適合納入自動抓取來源。
+- url: https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi-ipv6.m3u
+  group: 自動探索補充
+  _repo: RaycornM/TVbox-IPTV
+  _stars: 94
+  _checked_at: '2026-09-28'
+  _reason: '規則篩選通過(Gemini 呼叫失敗: TimeoutError)'
+- url: https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u
+  group: 自動探索補充
+  _repo: ioptu/IPTV.txt2m3u.player
+  _stars: 67
+  _checked_at: '2026-09-28'
+  _reason: 頻道清單主要為高畫質且穩定的大陸主流央視頻道，中文比例極高，適合自動抓取。
+- url: https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/main/hk_live.m3u
+  group: 自動探索補充
+  _repo: sammy0101/hk-iptv-auto
+  _stars: 57
+  _checked_at: '2026-09-28'
+  _reason: 此 repo 專門針對香港電視頻道進行自動抓取與有效性檢測，且頻道內容符合目標地區與中文需求。
+- url: https://raw.githubusercontent.com/qiuhaotc/AnHuiLianTongIPTV/main/安徽联通IPTV.m3u8
+  group: 自動探索補充
+  _repo: qiuhaotc/AnHuiLianTongIPTV
+  _stars: 43
+  _checked_at: '2026-09-28'
+  _reason: 該倉庫提供安徽聯通的穩定中文直播源，頻道名稱規範且更新活躍，適合自動抓取。
