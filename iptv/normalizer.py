@@ -9,12 +9,21 @@ import unicodedata
 try:  # 繁簡轉換(可選)
     from opencc import OpenCC
 
-    _cc = OpenCC("t2s")
+    _t2s = OpenCC("t2s")
+    _s2t = OpenCC("s2t")
 
     def to_simplified(s: str) -> str:
-        return _cc.convert(s)
+        return _t2s.convert(s)
+
+    def to_traditional(s: str) -> str:
+        # OpenCC 會把「台」轉成「臺」(如「台視」→「臺視」),但台灣當代實際使用(含官方/媒體)
+        # 幾乎一律寫「台」,「臺」反而少見,轉回來才符合真實慣用寫法
+        return _s2t.convert(s).replace("臺", "台")
 except Exception:  # noqa: BLE001
     def to_simplified(s: str) -> str:
+        return s
+
+    def to_traditional(s: str) -> str:
         return s
 
 _BRACKETS = re.compile(r"\[[^\]]*\]|\([^)]*\)|【[^】]*】|<[^>]*>")

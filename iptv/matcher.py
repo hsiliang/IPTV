@@ -10,7 +10,7 @@ from collections import defaultdict
 import yaml
 
 from .fetcher import fetch_json
-from .normalizer import clean_display, normalize
+from .normalizer import clean_display, normalize, to_simplified, to_traditional
 
 try:
     from rapidfuzz import fuzz, process
@@ -21,16 +21,9 @@ log = logging.getLogger(__name__)
 _DIGITS = re.compile(r"\D")
 _CJK = re.compile(r"[㐀-鿿]")
 
-try:  # 簡體判斷(可選,缺套件時退化成永遠判斷失敗,不影響其他邏輯)
-    from opencc import OpenCC
 
-    _s2t = OpenCC("s2t")
-
-    def _looks_simplified(s: str) -> bool:
-        return bool(s) and _s2t.convert(s) != s
-except Exception:  # noqa: BLE001
-    def _looks_simplified(s: str) -> bool:
-        return False
+def _looks_simplified(s: str) -> bool:
+    return bool(s) and to_traditional(s) != s
 
 
 # 頻道名稱裡的強特徵關鍵字 → 國家/地區,用來修正「頻道資料庫沒收錄、只能靠來源
@@ -238,6 +231,10 @@ class Matcher:
         alias_country = self.alias_country.get(alias_key) if alias_key else None
         name_country = _country_from_name(s.display, s.name, s.tvg_name)
         s.country = alias_country or s.country or name_country or s.country_hint or ""
+
+        # 顯示名稱簡繁:中國大陸頻道用簡體,其餘(台灣/香港/澳門及其他國家)一律用繁體;
+        # 非中文字元(英文台名等)不受影響,OpenCC 只會轉換中文字元
+        s.display = to_simplified(s.display) if s.country == "CN" else to_traditional(s.display)
 
         if not s.logo and self.logo_template:
             s.logo = self.logo_template.format(name=s.display, key=s.key)

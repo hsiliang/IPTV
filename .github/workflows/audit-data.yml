@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 19 * * 6"    # UTC 週六 19:00 = 台北時間週日 03:00,每週一次(discover-sources.yml 之後一小時)
   workflow_dispatch:         # 支援手動觸發
+    inputs:
+      limit:
+        description: "每類最多送幾個給 Gemini 複核(留空用預設的 25;一次性大範圍稽核可填大一點,例如 300)"
+        required: false
 
 permissions:
   contents: write
@@ -31,7 +35,12 @@ jobs:
       - name: Audit channel names / countries / logos
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -m iptv.audit -v
+        run: |
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            python -m iptv.audit -v --limit "${{ github.event.inputs.limit }}"
+          else
+            python -m iptv.audit -v
+          fi
 
       # 台標問題(共用同一張圖)已經在稽核執行時由 iptv/main.py 的邏輯清掉,不需要另外處理。
       # 國家/中文名建議是直接寫進 config/alias.yaml、config/config.yaml 本身(文字插入,

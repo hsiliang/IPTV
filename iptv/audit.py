@@ -55,6 +55,23 @@ def find_country_mismatches(channels):
     return out
 
 
+_STANDARD_CN_SUFFIX = re.compile(r"(頻道|频道|電視台|电视台|衛視|卫视|台)$")
+
+
+def find_low_confidence_cn(channels):
+    """country=CN,但既沒有頻道資料庫比對(channel_id 空)也沒有人工別名表命中(alias_hit),
+    代表是靠關鍵字/簡體字這種較弱的訊號猜的,可能是「Fox新聞」「半島新聞」這種外國頻道
+    剛好用簡體中文命名而被誤判,或是拿電視劇名稱直接當「頻道」的輪播源 —— 這類案例名稱
+    本身不會跟任何國家關鍵字矛盾,find_country_mismatches() 抓不到,需要另外送 Gemini 複核。
+
+    依「像不像正常地方台/衛視命名(結尾有 頻道/電視台/衛視/台)」與名稱長度排序,
+    沒有標準結尾、名稱越短的排越前面 —— 這類最可能是劇名輪播源或外國頻道中文名,
+    數量遠大於一般地方台,同一批候選裡優先讓真正可疑的被送去複核。"""
+    out = [ch for ch in channels if ch.country == "CN" and not ch.channel_id and not ch.alias_hit]
+    out.sort(key=lambda ch: (bool(_STANDARD_CN_SUFFIX.search(ch.display)), len(ch.display)))
+    return out
+
+
 def find_untranslated_cn(channels):
     # alias_hit=True 表示這個顯示名稱已經是人工判斷過的固定選擇(例如刻意保留 CCTV1 這種
     # 國際通用代號、不翻譯),不需要每週再重新建議一次
@@ -62,8 +79,23 @@ def find_untranslated_cn(channels):
             if ch.country == "CN" and ch.display and not ch.alias_hit and not _CJK.search(ch.display)]
 
 
+# 購物/輪播頻道常見特徵字;已知是正牌獨立頻道品牌的先排除,避免誤送 Gemini 複核
+_SUSPICIOUS_NAME = re.compile(r"购物|購物|shopping|轮播|輪播|重播", re.I)
+_KNOWN_REAL_CHANNELS = {
+    "第一剧场", "第一劇場", "风云剧场", "風雲劇場", "怀旧剧场", "懷舊劇場", "都市剧场", "都市劇場",
+    "家庭剧场", "家庭劇場", "军旅剧场", "軍旅劇場", "古装剧场", "古裝劇場", "欢笑剧场", "歡笑劇場",
+    "欢乐剧场", "歡樂劇場", "CHC家庭影院", "CHC動作電影", "CHC影迷電影", "iHOT 爱院线", "iHOT 愛院線",
+    "NewTV 欢乐剧场", "NewTV 歡樂劇場",
+}
+
+
+def find_suspicious_names(channels):
+    return [ch for ch in channels if _SUSPICIOUS_NAME.search(ch.display) and ch.display not in _KNOWN_REAL_CHANNELS]
+
+
 async def ask_gemini(session, api_key, model, items):
-    """items: [{"name","country","issue"}]  issue: country_mismatch | needs_chinese_name
+    """items: [{"name","country","issue"}]
+    issue: country_mismatch | low_confidence_cn | needs_chinese_name | not_real_channel
     回傳對應順序的 [{"action": "country"|"chinese_name"|"exclude"|"skip", "value", "reason"}]
     """
     prompt = (
@@ -74,10 +106,21 @@ async def ask_gemini(session, api_key, model, items):
         "只有在你確定目前標的是錯的時候才回傳 action=country;如果你想給的國家代碼跟輸入的 country 欄位"
         "一樣(也就是其實沒錯),回傳 action=skip,不要重複確認。如果這其實根本不是電視頻道"
         "(廣告/測試資料/景點直播鏡頭之類),回傳 action=exclude。\n"
+        "issue=low_confidence_cn:目前標成中國大陸(CN),但只是靠名稱含簡體字這種較弱的訊號猜的,"
+        "沒有真正比對到頻道資料庫。請判斷這個頻道實際上是哪個國家/地區——特別注意:半島電視台"
+        "(Al Jazeera)是卡達(QA)的頻道、美國之音是美國(US)的頻道、BBC/DW/RFI/RFA 等國際媒體的"
+        "中文頻道也都不是中國大陸頻道,即使名稱是簡體中文,因為它們是外國媒體針對中文讀者/觀眾"
+        "製作的內容,不代表頻道本身屬於中國大陸。如果你確定不是 CN,回傳 action=country 給正確代碼;"
+        "如果你確定就是中國大陸頻道,或無法判斷,回傳 action=skip;如果這其實根本不是電視頻道,"
+        "回傳 action=exclude。\n"
         "issue=needs_chinese_name:這是中國大陸頻道,但名稱是拼音或英文,"
         "請給出這個頻道實際通用的正式中文名稱。如果這個名稱本身就是國際通用代號"
         "(例如 CCTV1、CCTV-8K、CGTN 這種頻道編號/代號,業界跟一般中文語境都直接沿用,不會另外翻譯),"
         "回傳 action=skip,不要硬翻成別的寫法。不確定正式名稱時也回傳 action=skip,不要瞎猜。\n"
+        "issue=not_real_channel:名稱含有「購物」「輪播」「重播」等字樣,可能是電視購物頻道,"
+        "或只是單一節目/景點/宣傳片段循環播放、不是一個真正獨立經營的電視頻道。"
+        "如果你判斷這確實不是一個正常的電視頻道,回傳 action=exclude;"
+        "如果這其實是知名的正牌頻道品牌(不確定也算),回傳 action=skip,不要亂排除。\n"
         "看起來合理但你不確定的一律回傳 action=skip,不要亂猜。\n\n"
         f"輸入:\n{json.dumps(items, ensure_ascii=False)}\n\n"
         "只回傳 JSON 陣列,順序對應輸入,每項包含 name/action/value/reason,"
@@ -178,25 +221,40 @@ async def run(args):
         channels = build_channels(streams, cfg, checked=False)
         n_logo = dedupe_shared_logos(channels)
 
-        mismatches = find_country_mismatches(channels)[:MAX_PER_CATEGORY]
-        untranslated = find_untranslated_cn(channels)[:MAX_PER_CATEGORY]
-        log.info("頻道數 %d;國家可疑 %d;待翻譯 %d;本次清除共用台標 %d",
-                  len(channels), len(mismatches), len(untranslated), n_logo)
+        limit = args.limit or MAX_PER_CATEGORY
+        keyword_mismatches = find_country_mismatches(channels)
+        seen_gid = {ch.gid for ch in keyword_mismatches}
+        low_conf = [ch for ch in find_low_confidence_cn(channels) if ch.gid not in seen_gid]
+        mismatches = (keyword_mismatches + low_conf)[:limit]
+        untranslated = find_untranslated_cn(channels)[:limit]
+        suspicious = find_suspicious_names(channels)[:limit]
+        log.info("頻道數 %d;國家可疑 %d(關鍵字矛盾 %d + CN低信心 %d);待翻譯 %d;疑似非真頻道 %d;本次清除共用台標 %d",
+                  len(channels), len(mismatches), len(keyword_mismatches), len(low_conf),
+                  len(untranslated), len(suspicious), n_logo)
 
         gemini_key = os.getenv("GEMINI_API_KEY", "")
         gemini_model = os.getenv("GEMINI_MODEL", "gemini-flash-lite-latest")
         country_fixes, chinese_names, excludes, skipped = [], [], [], []
 
-        if gemini_key and (mismatches or untranslated):
+        if gemini_key and (mismatches or untranslated or suspicious):
+            mismatch_gids = {ch.gid for ch in keyword_mismatches}
             items = (
-                [{"name": ch.display, "country": ch.country, "issue": "country_mismatch"} for ch in mismatches]
+                [{"name": ch.display, "country": ch.country,
+                  "issue": "country_mismatch" if ch.gid in mismatch_gids else "low_confidence_cn"}
+                 for ch in mismatches]
                 + [{"name": ch.display, "country": ch.country, "issue": "needs_chinese_name"} for ch in untranslated]
+                + [{"name": ch.display, "country": ch.country, "issue": "not_real_channel"} for ch in suspicious]
             )
-            try:
-                verdicts = await ask_gemini(session, gemini_key, gemini_model, items)
-            except Exception as e:  # noqa: BLE001
-                log.warning("Gemini 複核失敗(%s),本次僅輸出原始可疑清單,不自動修改設定檔", type(e).__name__)
-                verdicts = []
+            # 分批送(每批 80 個),避免單次 prompt 太大逾時或被截斷;某一批失敗不影響其他批次
+            verdicts = []
+            batch_size = 80
+            batches = [items[i:i + batch_size] for i in range(0, len(items), batch_size)]
+            for i, batch in enumerate(batches):
+                try:
+                    verdicts += await ask_gemini(session, gemini_key, gemini_model, batch)
+                except Exception as e:  # noqa: BLE001
+                    log.warning("Gemini 複核第 %d/%d 批失敗(%s),這批維持原始可疑清單,不自動修改",
+                                i + 1, len(batches), type(e).__name__)
             by_name = {v.get("name"): v for v in verdicts if isinstance(v, dict)}
             for ch in mismatches:
                 v = by_name.get(ch.display)
@@ -215,6 +273,12 @@ async def run(args):
                     skipped.append((ch.display, "沒有把握的中文名"))
                 else:
                     chinese_names.append((ch.display, v["value"], v.get("reason", "")))
+            for ch in suspicious:
+                v = by_name.get(ch.display)
+                if v and v.get("action") == "exclude" and len(ch.display) >= 4:
+                    excludes.append((ch.display, v.get("reason", "")))
+                else:
+                    skipped.append((ch.display, "疑似非真頻道,但 Gemini 判斷是正牌頻道或沒把握"))
 
         if country_fixes:
             by_country = {}
@@ -269,6 +333,8 @@ def _write_report(n_channels, n_logo, mismatches, untranslated, country_fixes, c
 def main():
     ap = argparse.ArgumentParser(description="每週資料品質稽核(國家/台標/中文名稱)")
     ap.add_argument("-c", "--config", default="config/config.yaml")
+    ap.add_argument("--limit", type=int, default=None,
+                     help=f"每類最多送幾個給 Gemini 複核(預設 {MAX_PER_CATEGORY};一次性大範圍稽核可調高)")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args()
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
