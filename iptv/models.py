@@ -53,3 +53,4 @@ class Channel:
     group: str = ""
     tvg_id: str = ""
     streams: list = field(default_factory=list)
+    alias_hit: bool = False  # 顯示名稱是否命中人工別名表(已經是人工判斷過的固定名稱,稽核不需要再建議改名)

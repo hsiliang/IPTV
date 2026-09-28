@@ -138,6 +138,7 @@ def build_channels(streams, cfg, checked):
             groups[s.group_key].append(s)
     channels = []
     for gid, ss in groups.items():
+        alias_hit = any(s.alias_hit for s in ss)
         display = next((s.display for s in ss if s.alias_hit), ss[0].display)
         logo = next((s.logo for s in ss if s.logo), "")
         if checked:
@@ -146,7 +147,7 @@ def build_channels(streams, cfg, checked):
         channels.append(Channel(
             gid=gid, display=display, key=first.key, channel_id=first.channel_id, logo=logo,
             country=first.country, categories=first.categories, tvg_id=first.channel_id,
-            streams=ss[:max_per],
+            streams=ss[:max_per], alias_hit=alias_hit,
         ))
     return channels
 

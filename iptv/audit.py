@@ -56,7 +56,10 @@ def find_country_mismatches(channels):
 
 
 def find_untranslated_cn(channels):
-    return [ch for ch in channels if ch.country == "CN" and ch.display and not _CJK.search(ch.display)]
+    # alias_hit=True 表示這個顯示名稱已經是人工判斷過的固定選擇(例如刻意保留 CCTV1 這種
+    # 國際通用代號、不翻譯),不需要每週再重新建議一次
+    return [ch for ch in channels
+            if ch.country == "CN" and ch.display and not ch.alias_hit and not _CJK.search(ch.display)]
 
 
 async def ask_gemini(session, api_key, model, items):
@@ -67,10 +70,14 @@ async def ask_gemini(session, api_key, model, items):
         "你是 IPTV 頻道資料品質審核員。以下是規則判斷不出來、需要你確認的頻道清單(JSON 陣列),"
         "每項有 name(目前顯示名稱)、country(目前標的國家/地區代碼)、issue(問題類型)。\n"
         "issue=country_mismatch:名稱關鍵字看起來屬於某個國家/地區,但目前標的不一樣,"
-        "請判斷正確國家代碼(ISO 3166-1 alpha-2;台灣=TW,香港=HK,澳門=MO);"
-        "如果無法判斷、或這其實根本不是電視頻道(廣告/測試資料/景點直播鏡頭之類),回傳 action=exclude。\n"
+        "請判斷正確國家代碼(ISO 3166-1 alpha-2;台灣=TW,香港=HK,澳門=MO)。"
+        "只有在你確定目前標的是錯的時候才回傳 action=country;如果你想給的國家代碼跟輸入的 country 欄位"
+        "一樣(也就是其實沒錯),回傳 action=skip,不要重複確認。如果這其實根本不是電視頻道"
+        "(廣告/測試資料/景點直播鏡頭之類),回傳 action=exclude。\n"
         "issue=needs_chinese_name:這是中國大陸頻道,但名稱是拼音或英文,"
-        "請給出這個頻道實際通用的正式中文名稱;如果不確定正式名稱、請不要瞎猜,回傳 action=skip。\n"
+        "請給出這個頻道實際通用的正式中文名稱。如果這個名稱本身就是國際通用代號"
+        "(例如 CCTV1、CCTV-8K、CGTN 這種頻道編號/代號,業界跟一般中文語境都直接沿用,不會另外翻譯),"
+        "回傳 action=skip,不要硬翻成別的寫法。不確定正式名稱時也回傳 action=skip,不要瞎猜。\n"
         "看起來合理但你不確定的一律回傳 action=skip,不要亂猜。\n\n"
         f"輸入:\n{json.dumps(items, ensure_ascii=False)}\n\n"
         "只回傳 JSON 陣列,順序對應輸入,每項包含 name/action/value/reason,"
@@ -197,8 +204,11 @@ async def run(args):
                     skipped.append((ch.display, "country 不確定"))
                 elif v.get("action") == "exclude" and len(ch.display) >= 4:
                     excludes.append((ch.display, v.get("reason", "")))
-                elif v.get("action") == "country" and re.fullmatch(r"[A-Z]{2}", v.get("value") or ""):
+                elif (v.get("action") == "country" and re.fullmatch(r"[A-Z]{2}", v.get("value") or "")
+                      and v["value"] != ch.country):
                     country_fixes.append((ch.display, ch.country, v["value"], v.get("reason", "")))
+                else:
+                    skipped.append((ch.display, "country 建議與現況相同或格式異常,已略過"))
             for ch in untranslated:
                 v = by_name.get(ch.display)
                 if not v or v.get("action") != "chinese_name" or not v.get("value") or not _CJK.search(v["value"]):
