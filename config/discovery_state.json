@@ -4,6 +4,11 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "4yt1k/m3u-autoupdate": {
+  "checked_at": "2026-09-28T05:35:00.043932+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "CCSH/IPTV": {
   "checked_at": "2026-09-27T16:50:15.824504+00:00",
   "reason": "頻道抽樣全數重複且過度集中於單一頻道，品質不穩定且缺乏多樣性。",
@@ -19,10 +24,21 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "HaNoiIPTV/HaNoiIPTV.m3u": {
+  "checked_at": "2026-09-28T05:34:05.445453+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "LITUATUI/M3UPT": {
   "checked_at": "2026-09-27T16:50:15.485372+00:00",
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
+ },
+ "RaycornM/TVbox-IPTV": {
+  "checked_at": "2026-09-28T05:34:05.726285+00:00",
+  "file": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi-ipv6.m3u",
+  "reason": "規則篩選通過(Gemini 呼叫失敗: TimeoutError)",
+  "status": "accepted"
  },
  "TNT-Likely/xplayer": {
   "checked_at": "2026-09-27T21:00:35.941456+00:00",
@@ -37,6 +53,11 @@
  "akiralereal/iptv": {
   "checked_at": "2026-09-27T16:50:15.388665+00:00",
   "reason": "頻道數過少(28)",
+  "status": "rejected"
+ },
+ "alantang1977/IPTV_SuperA": {
+  "checked_at": "2026-09-28T05:35:00.169240+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
  "best-fan/iptv-sources": {
@@ -64,6 +85,12 @@
   "checked_at": "2026-09-27T16:50:13.881612+00:00",
   "file": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV1_ALL.m3u8",
   "reason": "該 repo 的 star 數高、近期有更新，且頻道名稱中文比例達 100% 且抽樣內容為合適的中文電視台直播源。",
+  "status": "accepted"
+ },
+ "ioptu/IPTV.txt2m3u.player": {
+  "checked_at": "2026-09-28T05:34:36.450687+00:00",
+  "file": "https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u",
+  "reason": "頻道清單主要為高畫質且穩定的大陸主流央視頻道，中文比例極高，適合自動抓取。",
   "status": "accepted"
  },
  "jia070310/4K-IPTV-M3U": {
@@ -97,6 +124,18 @@
   "checked_at": "2026-09-27T21:00:10.962691+00:00",
   "reason": "頻道數過少(1)",
   "status": "rejected"
+ },
+ "qiuhaotc/AnHuiLianTongIPTV": {
+  "checked_at": "2026-09-28T05:34:59.248926+00:00",
+  "file": "https://raw.githubusercontent.com/qiuhaotc/AnHuiLianTongIPTV/main/安徽联通IPTV.m3u8",
+  "reason": "該倉庫提供安徽聯通的穩定中文直播源，頻道名稱規範且更新活躍，適合自動抓取。",
+  "status": "accepted"
+ },
+ "sammy0101/hk-iptv-auto": {
+  "checked_at": "2026-09-28T05:34:58.297296+00:00",
+  "file": "https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/main/hk_live.m3u",
+  "reason": "此 repo 專門針對香港電視頻道進行自動抓取與有效性檢測，且頻道內容符合目標地區與中文需求。",
+  "status": "accepted"
  },
  "xisohi/CHINA-IPTV": {
   "checked_at": "2026-09-28T03:15:10.973728+00:00",
