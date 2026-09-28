@@ -1,0 +1,4298 @@
+{
+ "0472.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "1.24.190.98": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "1.94.31.214": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "101.35.240.114": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "103.154.3.101": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "103.172.187.30": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "103.58.160.157": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "104.152.209.49": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "106.53.99.30": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "107.150.60.122": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "107.167.7.162": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "110.153.180.106": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "110.185.237.164": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "111.22.153.159": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "111.59.24.227": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "111.59.63.32": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "112.25.48.68": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "112.27.235.94": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "112.27.5.218": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "112.30.194.221": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "112.46.105.20": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "112.99.195.122": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "113.26.251.182": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "113.64.146.48": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "117.156.28.119": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "117.161.133.51": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "117.72.81.170": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "118.122.2.29": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "119.29.233.26": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "119.32.12.17": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "119.6.59.216": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "119.77.96.184": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.15": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.20": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.21": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.24": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.42": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.49": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.53": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.196.232.57": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.39.52.202": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.70.60.179": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.76.248.139": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "120.78.6.151": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "121.4.119.229": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "122.117.71.103": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "122.228.73.138": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "123.146.162.24": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "123.207.224.130": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "124.88.144.73": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "125.210.152.18": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "125.227.210.55": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "125.62.24.185": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "138.121.15.230": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "143.244.60.30": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "144.217.14.88": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "145.239.5.177": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "148.135.93.213": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "15.204.246.24": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "153.0.158.159": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "153.0.171.163": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "159.75.85.63": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "1593604785.rsc.cdn77.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "1601580044.rsc.cdn77.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "162.19.247.76": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "164475.gvideo.io": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "168.196.127.137": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "168.228.44.241": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "173.208.212.130": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "173.208.234.146": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "175.155.106.72": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "175.8.28.207": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "181.224.255.210": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "182.150.115.21": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.11.239.36": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.207.248.71": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.207.249.15": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.222.248.153": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.230.184.51": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.237.95.108": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.250.156.180": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.64.174.171": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "183.64.181.25": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "185.9.2.18": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "190.11.225.124": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "190.197.41.183": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "190.61.90.17": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "192.151.150.154": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "198.16.100.186": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "198.204.228.26": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "198.204.240.250": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "198.58.104.90": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "1yp7hc5p.live.sxmty.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "2-fss-1.streamhoster.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "2-fss-1.themediacdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "2-fss-2.streamhoster.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "2.itv.nctv.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "200.115.120.1": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "201.190.41.246": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "202.69.67.66": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "20240504.shunyue1809.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "207.56.13.146": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "210.210.155.37": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "212.5.144.156": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "218.13.14.6": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "218.77.84.102": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "218.84.12.186": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "218.84.127.245": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "221.7.175.154": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "222.128.55.152": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "222.179.155.21": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "222.179.42.129": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "222.186.39.38": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "222.241.154.37": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "222.90.21.30": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.110.243.134": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.110.245.139": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.110.245.145": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.110.245.151": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.110.245.161": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.110.245.167": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.111.191.105": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "223.159.9.168": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "2280.eu.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "23.237.10.66": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "23.237.104.106": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "23.239.31.26": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "247wlive.foxweather.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "30a-tv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "31.148.48.15": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "31.43.191.125": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "31182.hlsplay.aodianyun.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "36.129.204.117": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "37c18028.akadatel.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "38.64.72.148": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "38.75.136.137": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.134.115.163": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.134.182.166": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.134.19.153": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.134.19.68": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.134.24.166": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.134.39.37": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.134.65.175": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "39.135.138.59": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "3abn.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "3gvod.zjgonline.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "4.30.180.36": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "4.59.210.197": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "41.205.93.154": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "43.138.170.29": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "45.167.1.138": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "45.170.130.224": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "45.190.13.8": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "45.6.4.35": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "45.70.201.81": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5.254.89.106": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "547f72e6652371c3.mediapackage.us-east-1.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "58.19.38.162": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "58.48.37.158": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "58.57.40.22": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "58.8.186.128": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "58cc65c534c67.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "59.175.226.142": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "597865f6e4114.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "597f64b67707a.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "59a564764e2b6.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "59d39900ebfb8.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "59e8e1c60a2b2.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5a8308add0b31.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5aafcc5de91f1.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5b200f5268ceb.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5bf8041cb3fed.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5c2974786200d.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5d12bc59c4748.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5d23269b3ec0c.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5d658d7e9f562.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5ddce30eb4b55.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "5ed325193d4e1.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "60.222.246.220": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "6096a9cf11ae5.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "61.173.144.157": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "61.216.67.119": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "61.221.215.25": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "61.244.22.4": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "627bb251f23c7.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "63.141.230.178": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "6305c8676ce84.streamlock.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "65.36.6.216": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "66.242.170.53": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "69.30.245.50": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "74.48.192.96": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "74.91.26.218": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "7612-5516-affc-d88b.kylintv.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "7mbd4ogkr3gx-hls-live.wmncdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "8.138.7.223": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "83awgyp5.live.sxmty.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "85.237.89.160": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "91.247.68.229": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "a-cdn.herringnetwork.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "a-cdn.klowdtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "abcnews-streams.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ads.its-newid.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "aegis-cloudfront-1.tubi.video": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "afghantv.app": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "agp-nimble.streamguys1.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ali-m-l.cztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ali-play.lezhibo.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ali-vl.cztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ali-xwl.cztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ali.hlspull.yximgs.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "alist.xicp.fun": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "all3media-midsomer-1-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "alt-al.otteravision.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "alwxnet-ott-proxy.cloud9streaming.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amc-absolutereality-1-us.plex.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amc-allweddings-1-us.xumo.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amc-amcespanol-1-us.lg.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amc-amcpresents-1-us.xumo.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amchls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00090-blueantcanada-amg00090c4-samsung-au-819.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00353-lionsgatestudio-angermgmt-samsungau-o9jg9.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00376-magellan-amg00376c12-samsung-au-1725.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00426-lds-amg00426c15-samsung-au-3684.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00732-salemmediagroup-snc-ono-ekp8j.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01258-raycomsports-powernationau-samsungau-18bwc.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01576-blueskyeenterta-lovepetsemea-samsungse-ctamh.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01705-amg01705c1-amgplt0095.playout.now3.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amg17596-ntdtv-amg17596c1-rakuten-gb-6741.playouts.now.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amogonetworx-artflix-1-nl.samsung.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amogonetworx-grjngo-3-dk.samsung.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "amtvusdvr.tulix.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "api.kkitv.itv888.vip": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "api.toonamiaftermath.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "api.v3.invintus.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "appletree-mytimeau-samsung.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bak.dou.ddns-ip.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bantel-cdn1.iptvperu.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bbb-barkt-streamstak.otteravision.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bbc-antiquesroadshowuk-1-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bbc-classicdrwho-1-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bbc-impossible-1-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bbstv.clouducs.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bcovlive-a.akamaihd.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "bein-xtra-bein.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "blacknewschannel-xumo-us.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bonappetit-samsung.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bp-livetytv.bestv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bp-resource-dfl.bestv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "breezy-audrie-zspace-7524863c.koyeb.app": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightonco.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-arabic-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-chinese-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-hislight-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-hisword-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-korean-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-latino-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-romanian-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-sls-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "brightstar-southasia-pull-secure.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "broadcast.blivenyc.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "broadcast.tbnpacific.org.au": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "buenapark.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "bxtv.3a.ink": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "c.streamhoster.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cafetradehls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cantv.streamguys1.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "capitalcityconnection.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "carolburnett-vizio.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "castus-vod-dev.s3.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "catholictvhd-lh.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-bos.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-chi.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-den.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-det.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-la.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-mia.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-min.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-ny.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-phi.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-pit.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cbsn-sf.cbsnstream.cbsnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cd-live-stream.news.cctvplus.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-apse1-prod.tsv2.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-atxn-01.vos360.video": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-shop-lc-01.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-ue1-prod.tsv2.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-unified-hls.streamspot.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn-uw2-prod.tsv2.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn.163189.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn.fast.jwp.services": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn.iptv8k.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn.jwplayer.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "blocked"
+ },
+ "cdn.qd.je": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn.vegasplus.us": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn.whiplash.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn1tlinkgo.tlink.cl": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn2.163189.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn3.163189.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn3.wowza.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn4.skygo.mn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn5.163189.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn6.163189.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn8.163189.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdn9.163189.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cdnapisec.kaltura.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "cdnlive.myspirit.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cfss.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ch8.littletongov.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "champaign-cablecast.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "channel.wcrmt.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "chibrics.mediacdn.ru": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cinedigm-entertainment-corp-thefilmdetective-1-us.ono.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cloud5.livescast.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cloudflare.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "clouditize.piksel.tech": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cm-wshls.homecdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cm.wshls.homecdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cmc-cmctv-cineverse.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cms-play.yjhlnews.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cnpull.sccnfb.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "comedydynamics-plex-ingest.cinedigm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "concordca.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "connection3-ent-nz.samsung.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "content.jwplatform.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "content.uplynk.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cpcdn.azureedge.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "create.lls.pbs.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "cs.ebmcdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "customer-6itfaqopbksp5p0q.cloudflarestream.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "czlive.czgd.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d029dcec.kazmazpaz.ru": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d11k1mnrgfposz.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d11r33s5i066xh.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d128y56w6v2kax.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d12a2vxqkkh1bo.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d12gab6t5iutxf.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d13j8jpstr8iqz.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d18dyiwu97wm6q.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d18fcxaqfnwjhj.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d198ro05q94rc4.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1a8aq6t30gkqj.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1b16tvvxk3tnu.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1c73nj8qxp55a.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1e354daam8g5r.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1ewctnvcwvvvu.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1flvb4iqlercm.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1h1d6qoy9vnra.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1hf773q57zx9s.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1i3g4v4xlfhad.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1ik2p49apxqjf.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1j2u714xk898n.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1kt53vrikzr5o.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1p1siomv3cm7b.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1s1wrpgemt9re.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1s6jz7jeei17.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1si3n1st4nkgb.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1t5afz6qed3xk.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1uvnirn6lhs2f.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d1xc25jm9e0l4b.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d21vn5eki5qsdi.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d24l3uppudokci.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d24p9tv2w5yorn.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d265y4sk8257lt.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d284aawtm5vi48.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2ah48mnofquik.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2e00kr7m9coe4.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2e1asnsl7br7b.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2ferbiwcx1539.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2lyea6if8kkz9.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2netiedy8cz3x.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2p4mrcwl6ly4.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2q0mzb9bm4w5z.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2ugl2g2gz1giy.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d2w9q46ikgrcwx.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d31z96rdrmwfsp.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3537vnymvfque.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d368vp0qqzvkid.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d36r8jifhgsk5j.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d37kx062o4ii0p.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3868b4ny0rgdf.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d39accvx65hq9o.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d39g1vxj2ef6in.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d39nqr4d4h6cv6.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3bsgqzbpkrvbb.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3cx6yargdnl7q.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3d85c7qkywguj.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3e05csss9c272.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3f4oii5n0oeqi.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3hqevbyoxtkoi.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3i68hpvh19xjd.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3i6upqaqzosi1.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3ify425qsio2d.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3j95sejv6mybj.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3k5y954fiztgy.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3k8wzt41aflvx.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3mr43kyql7wgk.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3o593mz1glx8d.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3s3a5c7f101eb.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d3vgs3ro3x6v8a.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d4whmvwm0rdvi.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d4ybyqrhce41r.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d6dg3ebeih71x.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d6ef3usc6d9cl.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "d9069ugodwkju.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dafeng-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dai.google.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "damkf751d85s1.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dassby.qqff.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dbrb49pjoymg4.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "df1zke3zj042m.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dfoiz3dv1euv7.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dikcfc9915kp8.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dil9xdvretp0f.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dk0n7jh428tzj.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dl74gpgmnb7i8.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dlttx48mxf9m3.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dminnvll.cdn.mangomolo.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dmr1h4skdal9h.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dnf08l6u6uxnz.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dnmfq3sh1jipj.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "docurama-plex-ingest.cinedigm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "donghai-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dongtai-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dos35knl8v49a.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "drive.mxmy.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "drybar-drybarcomedy-1-au.samsung.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dspdhls.appcoo.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dt9mwqwe98q7o.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dvnftgdlbnemm.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dw2m7yrngfg8c.cloudfront.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "dxtx.hntv.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "e2.woc.iiiya.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ebsonairios.ebs.co.kr": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "edge-f.swagit.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "edge.essastream.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "edge1.lifestreamcdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "english-livetx.cgtn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "enterbcef94b.airspace-cdn.cbsivideo.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "epg.pw": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "erp.giihgtidg.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "espanol-liveali.cgtn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "estrella-games-oando.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "estrella-news-oando.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "estrellatv-oando.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "eu1.servers10.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "event.pull.hebtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "f-tx-edge-87.christianworldmedia.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "failarmy-international-au.samsung.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "faithnow-hls.secdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "fast-channels.sinclairstoryline.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "fastly.live.brightcove.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "fffffff110156200.tvustream.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "file.hhtv.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "file.loulannews.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "file.xsbnrtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "file.ysxtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "fl1002.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "fl2.moveonjoy.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "fnx.lls.pbs.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "foxsoul-vizio.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "free.cnlive.club": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "freespeech.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "frndlymsl.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "fuel-streaming-prod01.fuelmedia.io": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "g5nl6xx5lpq6-hls-live.5centscdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ganyu-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "gaoyou-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "gcalic.v.myalicdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "gcwbndali.v.myalicdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "gdcucc.v1.mk": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "gdfire2.67890123.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "glorystartv.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "go.bkpcp.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "h5cul1yar48um3t.wcetv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "haian-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "haititivi.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hdl-vip-ws.qf.56.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.avang.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.cntv.lxdns.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.gstv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.keshishhamid.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.livecdn.io": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.ningxiahuangheyun.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.nntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls.weathertv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hls127.freeott.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hlsal-ldvt.qing.mgtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hlscdn.liangtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hlspackager.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hlsv2.quklive.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hlsztemgsplive.miguvideo.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "homeplushls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hplayer1.juyun.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hslive.hsnewsnet.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hsplay-360.v.btime.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "huaiyin-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "huodong.zuiqingyuan.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hw-m-l.cztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hwapi.yntv.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hwapi.yunshicloud.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hwlive.streamingmediahosting.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "hzcm-live.media.hugd.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "i.mjh.nz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "idclive.hljtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "install.akctvcontrol.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "iot-mqqt.111yao.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "iptv.4666888.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "iptv.almahditv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "iptv.catvod.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "iptv.huuc.edu.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "iptv.tapesh.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "iranefardalive.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "irctv.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "itiswrittentv.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "itv.iptv1688.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ivi.bupt.edu.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "janson-supersimplesongs-1-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "janya-digimix.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "japaneast.av.mk.io": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jiangning-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jiangyan-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jiawang-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jk3lz82elw79-hls-live.5centscdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jk3lzkn4lw79-hls-live.5centscdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jlt-jltv-strimm.otteravision.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jmc-live.ercdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jmp2.uk": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jrlive.jrntv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jstre.am": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jwcdnqx.hebyun.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jwliveqxzb.hebyun.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "jwplay.hebyun.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "kbsworld-ott.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "khetdt.lls.pbs.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "kkk.888.3116598.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "klmysjtzb.rcsxzx.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "kqeddt2.lls.pbs.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "kviedt2.lls.pbs.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "l.cztvcloud.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "l1.weihai.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "l2fpdktp.live.sxmty.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "langleyproductions-cops-2-eu.rakuten.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lbs-us1.suprememastertv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "blocked"
+ },
+ "lbyzztfe.live.sxmty.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lds-realwild-samsungau.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lds-timeline-rakuten.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lianshui-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lightning-fnf-samsungaus.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lin10.isilive.ca": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lin12.isilive.ca": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-10.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-1066.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-1080.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-11.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-12.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-142.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-188.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-253.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-43.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-44.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-46.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-59.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-700.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-860.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-896.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-897.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-899.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "linear-900.frequency.stream": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lineup.cbsivideo.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "litv.zapi.us.kg": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live-auth.51kandianshi.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live-echotv.cdnvideo.ru": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live-hls-web-aja.getaj.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live-hls-web-aje.getaj.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live-hls.macaulotustv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live-manifest.production-public.tubi.io": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live-mcl.cdn01.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.0359tv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.264788.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.ahsz.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.bygd.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.cloud.yanews.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.cztv.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.dameijunlian.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.daningtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.dltv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.dxhmt.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.erdszs.org.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.feed.thepalmbeaches.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.field59.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.funhillrm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.gdtv.ah.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.hd.hdbs.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.hndachao.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.hnxttv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.hyxrmt.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.hznet.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.iwcmt.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.jinchuanrmt.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.jtxwzx.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.lyg1.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.lytv.net.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.mastvnet.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.metshop.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.nbs.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.nowtelly.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.ntdtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.ottiptv.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.pzhkai.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.qthnews.org.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.relentlessinnovations.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.seminolecountyfl.gov": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.shaoxing.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.sjsrm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.spccmc.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.streamingfast.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "blocked"
+ },
+ "live.todaydunhuang.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.tvfix.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.wanyuannews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.wjyanghu.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.wzqmt.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.xtgdw.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.xysrmt.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.yantaitv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.ybtvyun.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.yjtvw.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.yqrtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.zcznbj.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.zhgbtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.zohi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.zoomnews.info": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live.zzyxxw.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live1.gatv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live1.habctv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live1.mediadesk.al": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live2.rxip.sc96655.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live2.scmstv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live20.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live3.tdm.com.mo": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live4play.uk": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "live8fd.lakewood.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livear.cgtn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livecdn.use1-0004.jwplive.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livechannel.mdc.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "liveen24-manminglobal3.ktcdn.co.kr": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "liveflash.sxrtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livefta.malimarcdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livejs1.newsjs.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "liveout.btzx.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "liveout.xntv.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "liveplay-srs.voc.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "liveplus.lzr.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livepull-tcms.sztv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livepull-tcyzb.sztv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livepull.myntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "liveru.cgtn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lives.jnnews.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestar.siliconweb.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestream-bt.nmtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestream-us-east-edge-2.granicusops.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestream.hannews.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestream.liveone.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestream.pbskids.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestream.telvue.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestream.usatv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livestreamcdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livetv.305streamhd.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "livetv.skycf.eu.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lmt.kjzx.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lmt.scqstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lonestar-rakuten.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ls.qingting.fm": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lsfb.avap.jilintv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "lxfile.lxxcb.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m.italkbbtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8-channel.lytv.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8.channel.dzsm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8.channel.luzhoubs.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8.channel.wsrtv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8channel-bx.yunxya.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8channel-yj.yunxya.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8channel.yunxya.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "m3u8file.lstv.org.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "main.duckhunting.playout.vju.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "maverick-maverick-black-cinema-3-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "maxtvhls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mbn-ingest-worldsafe.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mdstrm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "media.mohabat.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "media.parvizshahbazi.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "media.smc-host.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "media.streambrothers.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "media3.smc-host.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "media4.tripsmarter.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mediaprod1.nowcast.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mediaserver.abnvideos.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mmn1-301f.kxcdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mobile.ccdntech.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "mst3k-roku.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mtchls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mumbai-edge.smartplaytv.in": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "myip.pdtvhd.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "mytv.cdn.com.mp": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "n24-cdn-live.ntv.co.jp": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "na.linear.zype.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "naori-test.netgenx.site": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nas.hssvm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nbculocallive.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "newcntv.qcloudcdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "newidco-babysharktv-1-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "news.cgtn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ngcdn001.cnr.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nhk4.mov3.co": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nhkwlive-ojp.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nhl-firetv.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nklive.nbs.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nl.livekadeh.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nlive.zjkgdcs.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nmk.ioapk.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nn.7x9d.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "norcast-weather.streamology.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "nosey-intl-1-samsungau.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ntd02.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "oan-plus-tcl.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ocb-ingest.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "oitnhls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "other.ottiptv.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ottproxy2.ist.ooo": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ottrrs.hl.chinamobile.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "outsidetv-firetv.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "p.ytelc.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "p2.vzan.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "p2hs.vzan.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "p8.vzan.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "parshls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pbcvideostreams1.pbc.gov": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "peixian-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pemirateshls.persiana.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "petclub-samsungaus.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "phonehw.qing.mgtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "php.jdshipin.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pili-live-hls-kanqi.tianma3600.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pili-live-hls-sjxgz2024.sobeylive.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pili-live-hls.56.i2863.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pili-live-hls.hebitv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pili-live-hls.wdit.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pili-live-hls.xyrm.tianma3600.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pili-live-hls.ybcxjd.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play-a2.quklive.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play-live-hls.jxtvcn.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play-qukan.cztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play-sh13.quklive.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play.jinnantv.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play.kankanlive.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play.live.lijiangtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play.scrstv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play.yunxya.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "play1-qk.nmtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "playout7multirtmp.tulix.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "plex-xumoent-ch485-e7l5l.fast.nbcuni.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pluslive.wrbtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pluslive.zunyifb.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pubads.g.doubleclick.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "pubgfc.teleosmedia.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "pulltv1.wanfudaluye.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "pulltv2.wanfudaluye.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "qcfile.qcrmt.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "qjrhc.jydjd.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "qmmqvzoz.live.sxmty.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "qvc-amd-live.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "qxlmlive9.cbg.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "r.jdshipin.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "radio.pull.hebtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "radiovid.foxnews.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rally-tv-live.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "raw.githubusercontent.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "intermittent"
+ },
+ "raycom-accdn-firetv.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rch01e-alive-hls.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-access-sacramento.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-aurora.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-batv.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-bayarea.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-broadcast-psdschools.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-brookline-interactive-group.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-ccx.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-channel18vod-springfield-il-us.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-channel36-la.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-cityofloveland-co.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-collier-countyboc.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-communitytv.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-creatv.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-detroit-vod.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-fcpublicmedia.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-golden-co.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-hudsonctv.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-huntingtonbeach.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-jacksonville.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-kcat-live.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-lakefront-leesburgflorida.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-losangeles.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-mcsb-vod.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-monroe-mi-ci.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-monroe-public-access.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-montgomerycommunitymedia.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-npa.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-pomona.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-scvtv.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-stlucie-ps-fl.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-stream-bronxnet.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-tampa-bay-community.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-temecula.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-thornton.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-tuolumne.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-vod-cmac.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-vod-fcgov.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflect-vsctv.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "reflector.watchtstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "restream.pdtvhd.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rfdtv-jw.cdn.vustreams.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rihou.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rpn.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rpn3.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rrs01.hw.gmcc.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rt-arb.rttv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rt-ger.rttv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rt-glb.rttv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rt-srb.rttv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rudong-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rumble.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "blocked"
+ },
+ "run-rt-uh-roku.otteravision.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "russian-livews.cgtn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "rvtv-on-freecast.b-cdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ryanandfriends-samsungau.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "s3-us-west-2.amazonaws.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "sanlihalive1-a.akamaihd.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "sansat.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "satellitepull.cnr.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "scdytv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "scgctvshow.sctv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "sdqz.chinashadt.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "seb.sason.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "securestream10.champds.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "securestream11.champds.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "securestream9.champds.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "sh7hls.wns.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "shd-gcp-live.edgenextcdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "shuyang-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "sihong-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "siyang-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "smart.pendy.dpdns.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "smartzhu.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "smjdenny.eu.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "snapshot-live-ht.ahtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "sportsgrid-tribal.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "sra72yz.s.gy": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "srs.iyb983.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "srs.ssws.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "storage.sardius.media": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream-losangeles.scientology.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream-tampa.scientology.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream-us-east-1.getpublica.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.ads.ottera.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.alabbassia.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.appwuhan.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.cammonitorplus.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.diyatvinc.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.hmgbtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.hrbtv.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.jinjiang.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.jmtv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.lytv.net.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.lyxltv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.qhbtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.smntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.sun0769.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.swagit.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.swamiji.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.talgov.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.thmz.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.weathernationtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream.zztvzd.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream1.freetv.fun": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream1.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream1.mytaizhou.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream10.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream11.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream2.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream2.xiancity.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream3.huaihai.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream3.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream3.shopch.jp": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream5.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream6.scientology.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream8.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "stream9.jlntv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamer1.connectto.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamer1.nexgen.bz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamer1.streamhost.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streaming-live-fcdn.api.prd.univisionnow.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamingserver000.viewtv.cloud": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamipcf.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamipcfapp.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streams2.sofast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamsy.online": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "streamyes.alsolnet.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "sttv-tsl.cutv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "suining-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "t.061899.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tdameritrade-vizio.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tencentplay.gztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tencentplaybusiness.gztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tencentplaygzrb01.gztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "test1.live.sdetv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tglmp04.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tgn.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tgn2.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "the-pet-collective-international-dk.samsung.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "thedovetv.bozztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "thefirst-oando.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "thisoldhouse-2-us.roku.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "timelesstv1-301f.kxcdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tmpstream.hyrtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tntgjhjb.live.sxmty.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tonton-live-switch-ssar.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "toy.vcdn.fyi": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tpc.x3322.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "traffic.jbh.tjbh.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tricoast-tv-dark-matter-01-us.ono.wurl.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tulixcdn.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "turnerlive.warnermediacdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tv-trtworld.live.trt.com.tr": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tv.drs.ganzitv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tv.gunaz.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tv.pull.hebtv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tv2.fastcast4u.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvasahi.mov3.co": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvbox6.icu": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvfile.jjrm.org.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvfile.jyrmt.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvfile.lzgbdst.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvfile.swrmt.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvlive.ynradio.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvpanoucom.srfms.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvpull.dxhmt.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvsen5.aynascope.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvsen6.aynaott.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tvsen7.aynascope.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "txmov2.a.kwimgs.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tylive.kan0512.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "tyt-samsungus.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "uni01rtmp.tulix.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "uni8rtmp.tulix.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "unidfp-nlds154.global.ssl.fastly.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "uptv-aspiretvlife-klowdtv.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "utv1.hqtvzb.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "v.hystudio.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "v3.mediacast.hk": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vallejo.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vd2.bdstatic.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vd4.bdstatic.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "video.bread-tv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "video.ct-n.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "video.epaper.pybtv.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "video.oct.dc.gov": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "video.yscxy.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "video1.getstreamhosting.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "video10.qtv.com.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "videostack1.cdnstream1.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vietprocast.app": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vip.lqcc.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vip1.xinketongxun.fun": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "visit.jjbctv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "voa-ingest.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not blocked"
+ },
+ "vod.cityofrc.us": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vod2live.univtec.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vodcdn.bamboo-cloud.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vs20.live.opencaster.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "vsin-sgrewind.streamguys1.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wanzhoulive.cbg.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "watch.haitilive.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "watch.sardius.media": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "waypoint-waypointtv-firetv.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "webcast.hkstv.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wggstv16.ddns.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wgtvdt3.lls.pbs.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "whittier.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wildearth-plex.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "witn.cablecast.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wlngstudiowebcam.srfms.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "world.lls.pbs.org": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wouu.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wshls.live.migucloud.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wurl120sports.global.transmit.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wurlrifftrax.global.transmit.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "wurlsonypicturestv.global.transmit.live": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www-on-freecast.b-cdn.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.cdnstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.dalitv.com.tw": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.goodiptv.club": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.guzhenm.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.liruixiang.cc": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.lizhinas.top": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.lwfz.fun": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.pxitv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.tszhgjj.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "www.wxhcgbds.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "xykt-fix.github.io": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "xyktmobile00.s.gy": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "yandu-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "yangzhong-tv-hls.cm.jstv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "younghollywood-rakuten-samsung.amagi.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "ythls.armelin.one": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "yuppmedtaorire.akamaized.net": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zb-live.ynurl.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zb.gxlbamc.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zb.pzhgd.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zbbf2.ahbztv.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zby.130519.xyz": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zhibo.hkstv.tv": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zhpull.dxhmt.cn": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zhz.gxhzxw.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zjtv-wshls.homecdn.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ },
+ "zteres.sn.chinamobile.com": {
+  "checked_at": "2026-09-28T02:59:44.750230+00:00",
+  "verdict": "not enough data"
+ }
+}

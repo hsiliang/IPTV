@@ -2,7 +2,7 @@ name: Audit Channel Data
 
 on:
   schedule:
-    - cron: "0 19 * * 3"    # UTC 週三 19:00 = 台北時間週四 03:00,每週一次
+    - cron: "0 19 * * 6"    # UTC 週六 19:00 = 台北時間週日 03:00,每週一次(discover-sources.yml 之後一小時)
   workflow_dispatch:         # 支援手動觸發
 
 permissions:

@@ -11,7 +11,8 @@ IPTV 直播源自動更新工具:**採集 → 匹配 → 效驗 → 測速 → �
 | 匹配 `matcher.py` | 別名表 → `tvg-id` → iptv-org 資料庫名稱與 alt_names → 模糊比對(rapidfuzz,並檢查數字一致以避免 CCTV1↔CCTV11 誤配);自動補齊國家、分類、台標 |
 | 效驗測速 `checker.py` | 強制 IPv4 (`AF_INET`) 連線、過濾 IPv6 與內網位址;HLS 自動選最高碼率子清單並下載分片測速、記錄解析度;直連 ts/flv 讀取 N 秒測速;依速度 / 延遲 / 解析度判定 |
 | 節目單 `epg.py` | 多個 XMLTV 來源串流解析(可處理數百 MB 的 .gz),依頻道 ID / 名稱匹配,裁剪時間窗後合併為 `epg.xml.gz` |
-| 輸出 `output.py` | `live.m3u`(含 `x-tvg-url`)、`live.txt`、`countries/xx.m3u`、`report.json`、`README.md` 統計 |
+| 輸出 `output.py` | `live.m3u`(含 `x-tvg-url`)、`live.txt`、`countries/xx.m3u`、`report.json`、`README.md` 統計;若有 GFW 封鎖資料另外輸出 `live_cn.m3u`/`live_cn.txt` |
+| GFW 封鎖檢測 `gfw_check.py` | 每週(`discover-sources.yml`)查詢 GreatFire.org 公開 API,把確定被中國大陸網路封鎖的網域從 `live_cn.m3u` 排除;沒資料的網域一律當作未封鎖(不確定就保留) |
 
 ## 專案結構
 
@@ -43,6 +44,7 @@ IPTV 直播源自動更新工具:**採集 → 匹配 → 效驗 → 測速 → �
 ```
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/live.m3u
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/live.txt
+https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/live_cn.m3u   # 大陸用戶:已排除確定被 GFW 封鎖的網域
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/epg.xml.gz
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/countries/tw.m3u
 ```

@@ -2,7 +2,7 @@ name: Discover IPTV Sources
 
 on:
   schedule:
-    - cron: "0 18 * * 0"    # UTC 週日 18:00 = 台北時間週一 02:00,每週一次
+    - cron: "0 18 * * 6"    # UTC 週六 18:00 = 台北時間週日 02:00,每週一次
   workflow_dispatch:         # 支援手動觸發
 
 permissions:
@@ -34,17 +34,23 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -m iptv.discover -v
 
-      - name: Persist discovery state to main
+      # 測試目前所有頻道線路的網域是否被中國大陸網路(GFW)封鎖(資料來源:GreatFire.org
+      # 的公開量測 API),結果給 main.py 用來另外產生 live_cn.m3u/txt。跟來源探索排在
+      # 同一個 workflow、同一個排程,不需要另外的 workflow 檔案。
+      - name: Check domains against China's firewall (GreatFire.org)
+        run: python -m iptv.gfw_check -v
+
+      - name: Persist discovery state / GFW status to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add config/discovery_state.json
+          git add config/discovery_state.json config/gfw_status.json
           # 用 --cached 才抓得到「新建立的檔案」;git diff(不含 --cached)對 untracked 檔案永遠是空的
-          if ! git diff --cached --quiet -- config/discovery_state.json; then
-            git commit -q -m "chore: 更新來源探索 state ($(date -u '+%Y-%m-%d')) [skip ci]"
+          if ! git diff --cached --quiet; then
+            git commit -q -m "chore: 更新來源探索 state / GFW 封鎖狀態 ($(date -u '+%Y-%m-%d')) [skip ci]"
             git push
           else
-            echo "discovery_state.json 無變化,略過 commit"
+            echo "無變化,略過 commit"
           fi
 
       # 只有候選來源檔有異動(新增/移除項目)才會開 PR;人工檢查網址後再合併,

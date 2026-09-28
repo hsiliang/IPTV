@@ -4,6 +4,7 @@
 """
 import argparse
 import asyncio
+import json
 import logging
 import os
 import socket
@@ -41,6 +42,15 @@ def load_config(path):
         cfg["sources"] = [*(cfg.get("sources") or []), *extra_sources]
         log.info("併入自動探索來源 %d 條 (%s)", len(extra_sources), extra_path)
     return cfg
+
+
+def load_gfw_status(path="config/gfw_status.json"):
+    """讀取 iptv/gfw_check.py 每週產生的網域封鎖狀態,回傳 {hostname: verdict}"""
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f) or {}
+    return {host: (rec.get("verdict") if isinstance(rec, dict) else rec) for host, rec in data.items()}
 
 
 def public_base(cfg):
@@ -232,7 +242,7 @@ async def run(args):
     # 7. 輸出
     stats["耗時秒"] = round(time.monotonic() - t0, 1)
     write_outputs(channels, cfg, Grouper(cfg, matcher), epg_url, stats, base,
-                  streams=streams if checked else None)
+                  streams=streams if checked else None, gfw_status=load_gfw_status())
     for k, v in stats.items():
         log.info("%-8s %s", k, v)
     return 0
