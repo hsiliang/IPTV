@@ -103,6 +103,28 @@ CN:
   和政电视台: [Hezheng TV]
   酒泉电视台新闻综合频道: [Jiuquan TV News Comprehensive Channel]
   康巴卫视: [Kangba TV]
+  # ---------- 自動稽核建議(2026-09-28),待人工確認 ----------
+  兰州电视台综合新闻频道: [Lanzhou Comprehensive News Channel]
+  兰州电视台文化旅游频道: [Lanzhou Culture & Tourism Channel]
+  凉山电视台: [Liangshan TV]
+  南昌电视台新闻综合频道: [Nanchang News & Generalist Channel]
+  内蒙古电视台蒙古语文化频道: [Nei Monggol TV 2 Mongolian Culture Channel]
+  内蒙古电视台: [Nei Monggol TV]
+  萍乡电视台新闻频道: [Pingxiang TV News Channel]
+  青岛电视台新闻综合频道: [QTV-1]
+  青岛电视台经济生活频道: [QTV-2]
+  青岛电视台都市资讯频道: [QTV-3]
+  青岛电视台影视剧频道: [QTV-4]
+  青岛电视台公共频道: [QTV-5]
+  四川电视台妇女儿童频道: [Sichuan TV Women and Children Channel]
+  四平电视台: [Siping TV]
+  通化电视台: [Tonghua TV]
+  西安电视台商务资讯频道: [Xi'an Business Information Channel]
+  西安电视台丝路频道: [Xi'an Silk Road Channel]
+  新疆电视台第八套节目: [Xinjiang TV 8]
+  西藏电视台藏语卫视: [Xizang TV Tibetan]
+  徐州电视台经济生活频道: [Xuzhou Economic Life Channel]
+  优漫卡通频道: [You Man Cartoon Channel]
 TW:
   台視:       [台灣電視, 台視主頻]
   中視:       [中國電視, 中視主頻]
@@ -137,6 +159,18 @@ TW:
   好消息電視台: [Good TV]
   好消息2台: [Good 2]
 
+  # ---------- 自動稽核建議(2026-09-28),待人工確認 ----------
+  龙华电影: [龙华电影]
+  纬来电影: [纬来电影]
+  纬来精采: [纬来精采]
+  龙华洋片: [龙华洋片]
+  龙华经典: [龙华经典]
+  龙华卡通: [龙华卡通]
+  龙华偶像: [龙华偶像]
+  龙华日韩: [龙华日韩]
+  龙华戏剧: [龙华戏剧]
+  靖天电影: [靖天电影]
+  纬来体育: [纬来体育]
 HK:
   翡翠台:       [TVB Jade, TVB翡翠台, 無綫翡翠台]
   明珠台:       [TVB Pearl, 無綫明珠台]
@@ -150,6 +184,10 @@ HK:
   香港開電視:   [HOY TV, Hoy TV]
   TVB Plus:     []   # 頻道資料庫誤標成 CR(哥斯大黎加),TVB Plus 是香港電視廣播的頻道
 
+  # ---------- 自動稽核建議(2026-09-28),待人工確認 ----------
+  TVB J1: [TVB J1]
+  耀才财经: [耀才财经]
+  美亚C+: [美亚C+]
 MO:
   澳視澳門: [TDM Macau, 澳門台, TDM Ou Mun]
 
