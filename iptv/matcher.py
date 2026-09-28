@@ -32,7 +32,10 @@ _COUNTRY_KEYWORDS = [
     ("MO", re.compile(r"澳門|澳门|澳视|TDM", re.I)),
     # TVB(?!S):避免誤配到台灣的 TVBS(名稱含 TVB 子字串,但跟香港 TVB 是不同頻道)
     # R\.?T?\.?HK:同時涵蓋 RTHK 與部分來源打字漏字的 RHK(香港電台)
-    ("HK", re.compile(r"TVB(?!S)|ViuTV|R\.?T?\.?HK|無綫|无线|翡翠台|明珠台|鳳凰衛視|凤凰卫视|香港開電視|香港开电视|HOY\s*TV",
+    # 星空衛視:名稱含「衛視」會被下面的 CN 規則誤判,但頻道資料庫裡是香港註冊(StarXingKong.hk),
+    # 稽核工具曾兩次被 Gemini 誤導建議改成 CN,這裡放在 CN 規則之前優先攔截
+    ("HK", re.compile(r"TVB(?!S)|ViuTV|R\.?T?\.?HK|無綫|无线|翡翠台|明珠台|鳳凰衛視|凤凰卫视|香港開電視|香港开电视|HOY\s*TV|"
+                      r"星空衛視|星空卫视",
                       re.I)),
     ("TW", re.compile(
         r"民視|民视|三立|中天|東森|东森|台視|台视|中視|中视|華視|华视|公視|公视|年代新聞|年代新闻|"
