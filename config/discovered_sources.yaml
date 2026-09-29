@@ -22,21 +22,9 @@ sources:
   _stars: 710
   _checked_at: '2026-09-27'
   _reason: 該倉庫穩定更新且包含完整的中文地方台與衛視頻道，適合納入自動抓取來源。
-- url: https://raw.githubusercontent.com/zhi35/iptv/master/iptv.m3u
-  group: 自動探索補充
-  _repo: zhi35/iptv
-  _stars: 468
-  _checked_at: '2026-09-27'
-  _reason: 頻道全為中文且涵蓋主流央視，更新頻繁且符合自動抓取需求。
-- url: https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u
-  group: 自動探索補充
-  _repo: jia070310/lemonTV
-  _stars: 206
-  _checked_at: '2026-09-27'
-  _reason: 該 repo 擁有穩定的 star 數且頻道內容以高比例的中文官媒及主流頻道為主，適合納入自動抓取來源。
 - url: https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/main/hk_live.m3u
   group: 自動探索補充
   _repo: sammy0101/hk-iptv-auto
   _stars: 57
   _checked_at: '2026-09-28'
-  _reason: 人工複查通過(其餘 3 個候選因組播/私網位址或單點代理風險被拒,見 PR #8 關閉留言),專門的香港頻道自動抓取專案,網址為真正公開位址(RTHK 官方 CDN 等)。
+  _reason: 人工複查通過(其餘 3 個候選因組播/私網位址或單點代理風險被拒,見 PR
