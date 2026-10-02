@@ -145,16 +145,20 @@ def write_failed(streams, grouper, out):
     return {g: len(items) for g, items in ordered}
 
 
-def _filter_cn(sections, gfw_status):
-    """依 iptv/gfw_check.py 每週產生的網域封鎖狀態,過濾出「確定被中國大陸網路(GFW)封鎖」
-    以外的線路(不確定/沒資料的一律保留,寧可多留而不是誤刪);頻道的線路全部被封鎖才整個
-    頻道拿掉。回傳 None 代表沒有 GFW 資料,呼叫端不需要另外產生 live_cn 檔案。"""
-    if not gfw_status:
+def _filter_cn(sections, gfw_status, countries):
+    """中國專用版:只保留 countries(預設台港澳陸)的頻道,依頻道國家判斷而不是分組名稱;
+    再依 iptv/gfw_check.py 每週產生的網域封鎖狀態,排除「確定被中國大陸網路(GFW)封鎖」
+    的線路(不確定/沒資料的一律保留,寧可多留而不是誤刪);頻道的線路全部被封鎖才整個
+    頻道拿掉。回傳 None 代表既沒設定國家也沒有 GFW 資料,呼叫端不需要另外產生 live_cn 檔案。"""
+    if not gfw_status and not countries:
         return None
+    gfw_status = gfw_status or {}
     out = []
     for g, chans in sections:
         kept = []
         for ch in chans:
+            if countries and ch.country not in countries:
+                continue
             keep = [s for s in ch.streams if gfw_status.get((urlsplit(s.url).hostname or "").lower()) != "blocked"]
             if keep:
                 kept.append(replace(ch, streams=keep))
@@ -183,7 +187,8 @@ def write_outputs(channels, cfg, grouper, epg_url, stats, base, streams=None, gf
         _write_txt(os.path.join(out, f"{name}.txt"), sections)
         files.append(f"{name}.txt")
 
-    cn_sections = _filter_cn(sections, gfw_status)
+    cn_countries = {c.upper() for c in o.get("cn_countries") or []}
+    cn_sections = _filter_cn(sections, gfw_status, cn_countries)
     if cn_sections is not None:
         cn_name = f"{name}_cn"
         _write_m3u(os.path.join(out, f"{cn_name}.m3u"), cn_sections, epg_url, updated)
@@ -191,7 +196,7 @@ def write_outputs(channels, cfg, grouper, epg_url, stats, base, streams=None, gf
         if o.get("txt", True):
             _write_txt(os.path.join(out, f"{cn_name}.txt"), cn_sections)
             files.append(f"{cn_name}.txt")
-        stats["大陸可用頻道數(已排除GFW封鎖)"] = sum(len(c) for _, c in cn_sections)
+        stats["中國專用版頻道數(台港澳陸,已排除GFW封鎖)"] = sum(len(c) for _, c in cn_sections)
 
     if o.get("per_country", True):
         cdir = os.path.join(out, "countries")

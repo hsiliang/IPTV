@@ -258,18 +258,19 @@ output:
   per_country: true            # 另外輸出 countries/xx.m3u
   public_base_url: ""          # 空 = 自動使用 raw.githubusercontent.com/<repo>/release
   group_mode: rules            # rules / country / category / source
-  group_rules:                 # 由上而下,先符合者勝;pattern 為正則,比對顯示名稱
-    - {name: "📺 央視頻道", pattern: "^CCTV|^CGTN"}
-    - {name: "📡 衛視頻道", pattern: "衛視|卫视"}
+  # 一律只依國家地區分組(不再有央視/衛視/新聞/電影/體育等內容分類):
+  # 台港澳陸用下面的中文名稱並排在最前面,其餘國家依 group_fallback 用資料庫的國家名稱
+  group_rules:                 # 由上而下,先符合者勝
     - {name: "🇹🇼 台灣頻道", countries: [TW]}
     - {name: "🇭🇰 香港頻道", countries: [HK]}
     - {name: "🇲🇴 澳門頻道", countries: [MO]}
     - {name: "🇨🇳 大陸頻道", countries: [CN]}
-    - {name: "📰 新聞頻道", categories: [news]}
-    - {name: "🎬 電影頻道", categories: [movies]}
-    - {name: "⚽ 體育頻道", categories: [sports]}
   group_fallback: country      # 規則都不符時:country / category / source / 固定名稱
   group_order: []              # 自訂分組順序(未列出者依規則順序,其餘字母序)
+  # 中國專用版(live_cn.m3u / live_cn.txt)只保留這些國家地區的頻道,其他一律排除;
+  # 依頻道的國家判斷,所以「鳳凰衛視」(HK)、「澳門衛視」(MO) 這類名稱含衛視的港澳台頻道也會保留。
+  # 若有 GFW 封鎖資料(config/gfw_status.json),另外再排除確定被封鎖的網域。
+  cn_countries: [CN, HK, MO, TW]
 
 # ---------- 6. 節目單 EPG ----------
 epg:

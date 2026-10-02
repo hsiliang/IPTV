@@ -12,7 +12,7 @@ IPTV 直播源自動更新工具:**採集 → 匹配 → 效驗 → 測速 → �
 | 效驗測速 `checker.py` | 強制 IPv4 (`AF_INET`) 連線、過濾 IPv6 與內網位址;HLS 自動選最高碼率子清單並下載分片測速、記錄解析度;直連 ts/flv 讀取 N 秒測速;依速度 / 延遲 / 解析度判定 |
 | 台標擇優 `logos.py` | 收集同頻道所有線路的 `tvg-logo` + 資料庫台標,逐一驗證(404、imgur 已刪除、非圖片一律跳過),跳過被多個頻道共用的誤植網址,檔名與頻道同名者優先;都不可用時才以中文名稱查備援台標庫 |
 | 節目單 `epg.py` | 多個 XMLTV 來源串流解析(可處理數百 MB 的 .gz),依頻道 ID / 名稱匹配,裁剪時間窗後合併為 `epg.xml.gz` |
-| 輸出 `output.py` | `live.m3u`(含 `x-tvg-url`)、`live.txt`、`countries/xx.m3u`、`report.json`、`README.md` 統計;若有 GFW 封鎖資料另外輸出 `live_cn.m3u`/`live_cn.txt` |
+| 輸出 `output.py` | `live.m3u`(含 `x-tvg-url`)、`live.txt`、`countries/xx.m3u`、`report.json`、`README.md` 統計;分組一律依國家地區;另外輸出中國專用版 `live_cn.m3u`/`live_cn.txt`(只含台港澳陸頻道) |
 | GFW 封鎖檢測 `gfw_check.py` | 每週(`discover-sources.yml`)查詢 GreatFire.org 公開 API,把確定被中國大陸網路封鎖的網域從 `live_cn.m3u` 排除;沒資料的網域一律當作未封鎖(不確定就保留) |
 
 ## 專案結構
@@ -45,7 +45,7 @@ IPTV 直播源自動更新工具:**採集 → 匹配 → 效驗 → 測速 → �
 ```
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/live.m3u
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/live.txt
-https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/live_cn.m3u   # 大陸用戶:已排除確定被 GFW 封鎖的網域
+https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/live_cn.m3u   # 中國專用版:只含台港澳陸頻道,並排除確定被 GFW 封鎖的網域
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/epg.xml.gz
 https://raw.githubusercontent.com/<你的帳號>/<儲存庫>/release/countries/tw.m3u
 ```
@@ -67,7 +67,8 @@ python -m iptv.main --limit 100 -v                  # 只測前 100 條,顯示�
 - **filter.countries**:例如 `[TW, HK]` 只保留台港頻道。
 - **check.min_speed / max_latency / min_height**:可用門檻;`min_height: 720` 可只留 HD 以上的 HLS 線路。
 - **output.max_per_channel**:每頻道保留最快的 N 條線路(多線路在播放器裡可切換)。
-- **output.group_rules**:依名稱正則、國家、分類分組,由上而下先符合者勝;都不符時依 `group_fallback`。
+- **output.group_rules**:由上而下先符合者勝;都不符時依 `group_fallback`。預設只依國家地區分組(台港澳陸用中文名稱排最前,其他國家用資料庫國家名稱),不再分央視/衛視/新聞等內容類別。
+- **output.cn_countries**:中國專用版 `live_cn` 只保留的國家地區,預設 `[CN, HK, MO, TW]`;依頻道國家判斷,因此鳳凰衛視(HK)、澳門衛視(MO)等名稱含「衛視」的港澳台頻道也會保留。
 - **output.min_channels**:可用頻道過少時直接失敗,避免來源異常時把舊清單覆蓋成空的。
 - **epg.sources**:XMLTV 來源,依序優先;同一頻道 ID 以先出現的來源為準。
 

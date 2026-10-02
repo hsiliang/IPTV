@@ -9,7 +9,7 @@ GreatFire 既有的量測資料庫,涵蓋率取決於他們是否測過這個網
 保留,而不是不確定就排除),只有查到「blocked」時才會被排除。
 
 結果寫進 config/gfw_status.json,main.py 每次執行(每 6 小時)都會讀取這份
-資料,額外輸出 live_cn.m3u / live_cn.txt 給大陸用戶使用。
+資料,在中國專用版 live_cn.m3u / live_cn.txt(只含台港澳陸頻道)中排除被封鎖的網域。
 """
 import argparse
 import asyncio
