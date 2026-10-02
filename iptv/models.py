@@ -48,6 +48,8 @@ class Channel:
     key: str
     channel_id: str = ""
     logo: str = ""
+    logos: list = field(default_factory=list)  # 台標候選(依優先順序),由 logos.py 擇優後寫入 logo
+    db_logo: str = ""                           # 頻道資料庫給這個頻道的台標
     country: str = ""
     categories: list = field(default_factory=list)
     group: str = ""

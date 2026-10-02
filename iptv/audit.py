@@ -7,8 +7,8 @@
   3. 若有設定 GEMINI_API_KEY,把抓到的可疑項目(數量有上限,不會每週把全部
      頻道都送出去)送給 Gemini 複核,決定正確國家 / 建議中文名 / 是否根本
      不是頻道(建議排除)
-  4. 台標問題已經由 main.py 的 dedupe_shared_logos() 在每次執行時自動清除
-     (共用同一網址的台標全部清空),這裡只彙報這次清了幾個,不重複處理
+  4. 台標問題已經由 logos.py 在每次執行時自動處理(跳過共用同一網址的誤植台標、
+     驗證網址並改用同頻道其他可用的候選),這裡只彙報有幾個頻道跳過了共用台標,不重複處理
 
 Gemini 建議會直接寫回 config/alias.yaml / config/config.yaml(用文字層級插入,
 不是整檔重新序列化,才不會清掉裡面大量手寫註解),由 workflow 開 PR 讓人工核准
@@ -27,7 +27,8 @@ import aiohttp
 import yaml
 
 from .fetcher import collect
-from .main import apply_filters, build_channels, cap_candidates, dedupe_shared_logos, load_config, merge_by_key
+from .logos import resolve_logos
+from .main import apply_filters, build_channels, cap_candidates, load_config, merge_by_key
 from .matcher import _CJK, _COUNTRY_KEYWORDS, Matcher
 
 log = logging.getLogger("iptv.audit")
@@ -226,7 +227,7 @@ async def run(args):
         streams, _ = apply_filters(streams, cfg)
         streams = cap_candidates(streams, int(cfg.get("filter", {}).get("max_candidates_per_channel", 8)))
         channels = build_channels(streams, cfg, checked=False)
-        n_logo = dedupe_shared_logos(channels)
+        n_logo = (await resolve_logos(channels, matcher, ua, verify=False)).get("共用剔除", 0)
 
         limit = args.limit or MAX_PER_CATEGORY
         keyword_mismatches = find_country_mismatches(channels)
@@ -235,7 +236,7 @@ async def run(args):
         mismatches = (keyword_mismatches + low_conf)[:limit]
         untranslated = find_untranslated_cn(channels)[:limit]
         suspicious = find_suspicious_names(channels)[:limit]
-        log.info("頻道數 %d;國家可疑 %d(關鍵字矛盾 %d + CN低信心 %d);待翻譯 %d;疑似非真頻道 %d;本次清除共用台標 %d",
+        log.info("頻道數 %d;國家可疑 %d(關鍵字矛盾 %d + CN低信心 %d);待翻譯 %d;疑似非真頻道 %d;本次跳過共用台標 %d",
                   len(channels), len(mismatches), len(keyword_mismatches), len(low_conf),
                   len(untranslated), len(suspicious), n_logo)
 
@@ -307,7 +308,7 @@ def _write_report(n_channels, n_logo, mismatches, untranslated, country_fixes, c
                    used_gemini):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     lines = [f"# 資料品質稽核報告({today})\n",
-             f"頻道總數 {n_channels};本次自動清除共用台標(誤植) {n_logo} 個頻道。",
+             f"頻道總數 {n_channels};本次跳過共用台標(誤植) {n_logo} 個頻道。",
              f"國家可疑 {len(mismatches)} 個、疑似拼音待翻譯 {len(untranslated)} 個"
              + ("(已送 Gemini 複核)" if used_gemini else "(未設定 GEMINI_API_KEY,僅規則檢查,未複核/未自動修改)") + "\n"]
 

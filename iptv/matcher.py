@@ -87,7 +87,9 @@ class Matcher:
         self.db_cfg = db
         self.fuzzy = int(db.get("fuzzy_threshold", 0) or 0) if process else 0
         self.prefer_db_name = bool(db.get("prefer_database_name", False))
-        self.logo_template = db.get("logo_template") or ""
+        # 資料庫無台標時的備援模板(字串或清單),由 logos.py 當作最後順位的候選並驗證
+        tpl = db.get("logo_template") or []
+        self.logo_templates: list[str] = [tpl] if isinstance(tpl, str) else list(tpl)
         self.pref = [c.upper() for c in db.get("preferred_countries") or []]
 
         self.alias: dict[str, str] = {}
@@ -238,7 +240,4 @@ class Matcher:
         # 顯示名稱簡繁:中國大陸頻道用簡體,其餘(台灣/香港/澳門及其他國家)一律用繁體;
         # 非中文字元(英文台名等)不受影響,OpenCC 只會轉換中文字元
         s.display = to_simplified(s.display) if s.country == "CN" else to_traditional(s.display)
-
-        if not s.logo and self.logo_template:
-            s.logo = self.logo_template.format(name=s.display, key=s.key)
         return s

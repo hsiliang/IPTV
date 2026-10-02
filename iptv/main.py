@@ -20,6 +20,7 @@ from .checker import Checker
 from .epg import EPGBuilder
 from .fetcher import collect
 from .health import update_and_prune
+from .logos import resolve_logos
 from .matcher import Matcher
 from .models import Channel
 from .output import Grouper, write_outputs
@@ -115,24 +116,6 @@ def apply_filters(streams, cfg):
     return out, reasons
 
 
-def dedupe_shared_logos(channels):
-    """同一個台標網址被多個不同頻道共用,幾乎都是來源資料本身貼錯(常見於自動採集工具:
-    整批頻道複製貼上時漏改 tvg-logo)。寧可沒台標也不要顯示錯的,一律清掉重複使用的網址。"""
-    by_logo = defaultdict(set)
-    for ch in channels:
-        if ch.logo:
-            by_logo[ch.logo].add(ch.gid)
-    bad = {url for url, gids in by_logo.items() if len(gids) > 1}
-    n = 0
-    for ch in channels:
-        if ch.logo in bad:
-            ch.logo = ""
-            n += 1
-    if n:
-        log.info("清除疑似誤植的共用台標:%d 個頻道 / %d 個重複網址", n, len(bad))
-    return n
-
-
 def cap_candidates(streams, n):
     groups = defaultdict(list)
     for s in streams:
@@ -142,20 +125,22 @@ def cap_candidates(streams, n):
 
 def build_channels(streams, cfg, checked):
     max_per = int(cfg.get("output", {}).get("max_per_channel", 3))
-    groups = defaultdict(list)
+    groups, all_logos = defaultdict(list), defaultdict(list)
     for s in streams:
+        if s.logo:  # 沒通過測速的線路,其台標資訊一樣可以當候選
+            all_logos[s.group_key].append(s.logo)
         if not checked or s.ok:
             groups[s.group_key].append(s)
     channels = []
     for gid, ss in groups.items():
         alias_hit = any(s.alias_hit for s in ss)
         display = next((s.display for s in ss if s.alias_hit), ss[0].display)
-        logo = next((s.logo for s in ss if s.logo), "")
+        logos = list(dict.fromkeys(all_logos[gid]))  # 台標候選(來源順序),稍後由 logos.py 擇優
         if checked:
             ss.sort(key=lambda s: (-(s.speed or 0), s.latency or 99))
         first = ss[0]
         channels.append(Channel(
-            gid=gid, display=display, key=first.key, channel_id=first.channel_id, logo=logo,
+            gid=gid, display=display, key=first.key, channel_id=first.channel_id, logos=logos,
             country=first.country, categories=first.categories, tvg_id=first.channel_id,
             streams=ss[:max_per], alias_hit=alias_hit,
         ))
@@ -210,9 +195,8 @@ async def run(args):
 
     # 5. 聚合擇優
     channels = build_channels(streams, cfg, checked)
-    n_bad_logo = dedupe_shared_logos(channels)
-    if n_bad_logo:
-        stats["清除誤植台標"] = n_bad_logo
+    stats["台標"] = await resolve_logos(channels, matcher, ua,
+                                      verify=cfg.get("database", {}).get("verify_logos", True))
     stats["頻道數"] = len(channels)
     stats["輸出線路"] = sum(len(c.streams) for c in channels)
     min_ch = int(cfg.get("output", {}).get("min_channels", 1))

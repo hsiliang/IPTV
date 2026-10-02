@@ -48,9 +48,14 @@ database:
   fuzzy_threshold: 92          # 模糊比對門檻 0-100,0 = 關閉
   prefer_database_name: false  # true:未命中別名時改用資料庫(英文)名稱
   preferred_countries: [TW, HK, MO, CN, SG]   # 同名頻道衝突時優先的國家
-  # 資料庫無台標時的備援模板,可用 {name} {key}
-  logo_template: ""
-  # logo_template: "https://live.fanmingming.cn/tv/{name}.png"
+  # 台標備援模板(字串或清單),排在各來源台標與資料庫台標之後當最後順位候選;
+  # 可用 {name}(顯示名稱)、{name_sc}(顯示名稱轉簡體)、{key}
+  logo_template:
+    - "https://epg.112114.xyz/logo/{name_sc}.png"
+    - "https://live.fanmingming.cn/tv/{name_sc}.png"
+  # 逐一驗證台標網址(HTTP 200 且確實是圖片),跳過 404 / imgur 已刪除等失效圖,
+  # 改用同頻道其他來源的台標;關閉則只做規則式擇優(跳過共用網址),不連網檢查
+  verify_logos: true
 
 # ---------- 3. 過濾 ----------
 filter:
