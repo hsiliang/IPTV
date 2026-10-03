@@ -1,0 +1,10 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="TDMOuMun.mo" tvg-name="澳視澳門" tvg-logo="https://i.imgur.com/qDI3aMp.png" tvg-country="MO" group-title="🇲🇴 澳門頻道",澳視澳門
+http://r.jdshipin.com/n2YZI
+#EXTINF:-1 tvg-id="TDMOuMun.mo" tvg-name="澳視澳門" tvg-logo="https://i.imgur.com/qDI3aMp.png" tvg-country="MO" group-title="🇲🇴 澳門頻道",澳視澳門
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=asam
+#EXTINF:-1 tvg-id="" tvg-name="澳視衛星" tvg-logo="" tvg-country="MO" group-title="🇲🇴 澳門頻道",澳視衛星
+http://r.jdshipin.com/QFhCq
+#EXTINF:-1 tvg-id="" tvg-name="澳門衛視" tvg-logo="https://epg.112114.xyz/logo/澳门卫视.png" tvg-country="MO" group-title="🇲🇴 澳門頻道",澳門衛視
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=as

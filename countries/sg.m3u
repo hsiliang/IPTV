@@ -1,0 +1,20 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="AXNAsia.sg" tvg-name="AXN Asia Taiwan" tvg-logo="" tvg-country="SG" group-title="🇸🇬 Singapore",AXN Asia Taiwan
+http://125.227.210.55:4050/VideoInput/play.ts
+#EXTINF:-1 tvg-id="Channel8.sg" tvg-name="Channel 8" tvg-logo="" tvg-country="SG" group-title="🇸🇬 Singapore",Channel 8
+https://cdn.qd.je/163189/ch8
+#EXTINF:-1 tvg-id="ChannelU.sg" tvg-name="Channel U" tvg-logo="" tvg-country="SG" group-title="🇸🇬 Singapore",Channel U
+https://cdn.qd.je/163189/chu
+#EXTINF:-1 tvg-id="CNA.sg" tvg-name="CNA" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNA.png" tvg-country="SG" group-title="🇸🇬 Singapore",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-id="CNA.sg" tvg-name="CNA" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNA.png" tvg-country="SG" group-title="🇸🇬 Singapore",CNA
+https://live1.mediadesk.al/cnatvlive.m3u8
+#EXTINF:-1 tvg-id="CNAOriginals.sg" tvg-name="CNA Originals" tvg-logo="" tvg-country="SG" group-title="🇸🇬 Singapore",CNA Originals
+https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ROCKEntertainment.sg" tvg-name="ROCK Entertainment" tvg-logo="https://i.imgur.com/PWzq0aU.png" tvg-country="SG" group-title="🇸🇬 Singapore",ROCK Entertainment
+http://58.8.186.128:10006/bysid/2612
+#EXTINF:-1 tvg-id="ROCKXStream.sg" tvg-name="ROCK X Stream" tvg-logo="https://i.ibb.co/TM8d2yp8/Rock-X-Stream.webp" tvg-country="SG" group-title="🇸🇬 Singapore",ROCK X Stream
+http://58.8.186.128:10007/bysid/2811
+#EXTINF:-1 tvg-id="" tvg-name="新加坡國際" tvg-logo="" tvg-country="SG" group-title="🇸🇬 Singapore",新加坡國際
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8

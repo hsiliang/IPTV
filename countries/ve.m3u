@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="VenevisionInternacional.ve" tvg-name="Venevision Internacional" tvg-logo="https://i.imgur.com/vtGED07.jpg" tvg-country="VE" group-title="🇻🇪 Venezuela",Venevision Internacional
+https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8

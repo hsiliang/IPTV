@@ -1,0 +1,92 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="AsianDrama.hk" tvg-name="Asian Drama" tvg-logo="https://i.imgur.com/wqtN7mH.png" tvg-country="HK" group-title="🇭🇰 香港頻道",Asian Drama
+http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
+#EXTINF:-1 tvg-id="GoldenJade.hk" tvg-name="Golden Jade" tvg-logo="https://i.imgur.com/lPYxsUr.png" tvg-country="HK" group-title="🇭🇰 香港頻道",Golden Jade
+http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk" tvg-name="Mei Ah Movie Channel" tvg-logo="https://i.imgur.com/laGiFM1.png" tvg-country="HK" group-title="🇭🇰 香港頻道",Mei Ah Movie Channel
+http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
+#EXTINF:-1 tvg-id="PetClubTV.hk" tvg-name="Pet Club TV" tvg-logo="https://i.imgur.com/ykPNNwQ.png" tvg-country="HK" group-title="🇭🇰 香港頻道",Pet Club TV
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="PetClubTV.hk" tvg-name="Pet Club TV" tvg-logo="https://i.imgur.com/ykPNNwQ.png" tvg-country="HK" group-title="🇭🇰 香港頻道",Pet Club TV
+https://petclub-samsungaus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="RTHK 31" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/RTHK31.png" tvg-country="HK" group-title="🇭🇰 香港頻道",RTHK 31
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31
+#EXTINF:-1 tvg-id="RTHKTV32.hk" tvg-name="RTHK 32" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/RTHK32.png" tvg-country="HK" group-title="🇭🇰 香港頻道",RTHK 32
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
+#EXTINF:-1 tvg-id="TVPlus.cr" tvg-name="TVB Plus" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png" tvg-country="HK" group-title="🇭🇰 香港頻道",TVB Plus
+https://cdn6.cc.cd/163189/tvbp
+#EXTINF:-1 tvg-id="TVPlus.cr" tvg-name="TVB Plus" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png" tvg-country="HK" group-title="🇭🇰 香港頻道",TVB Plus
+http://r.jdshipin.com/Nr5jq
+#EXTINF:-1 tvg-id="TVPlus.cr" tvg-name="TVB Plus" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png" tvg-country="HK" group-title="🇭🇰 香港頻道",TVB Plus
+http://r.jdshipin.com/ndGgS
+#EXTINF:-1 tvg-id="" tvg-name="TVB娛樂新聞台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/logo/TVB娱乐新闻台.jpg" tvg-country="HK" group-title="🇭🇰 香港頻道",TVB娛樂新聞台
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+#EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-name="TVB星河" tvg-logo="https://live.fanmingming.cn/tv/TVB星河.png" tvg-country="HK" group-title="🇭🇰 香港頻道",TVB星河
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=xinghe
+#EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-name="TVB星河" tvg-logo="https://live.fanmingming.cn/tv/TVB星河.png" tvg-country="HK" group-title="🇭🇰 香港頻道",TVB星河
+http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
+#EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-name="TVB星河" tvg-logo="https://live.fanmingming.cn/tv/TVB星河.png" tvg-country="HK" group-title="🇭🇰 香港頻道",TVB星河
+http://r.jdshipin.com/sXuuD
+#EXTINF:-1 tvg-id="tvNAsia.hk" tvg-name="tvN Asia" tvg-logo="" tvg-country="HK" group-title="🇭🇰 香港頻道",tvN Asia
+http://58.8.186.128:10005/bysid/2518
+#EXTINF:-1 tvg-id="ViuTV.hk" tvg-name="ViuTV" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/ViuTV.png" tvg-country="HK" group-title="🇭🇰 香港頻道",ViuTV
+https://10.fast.hidns.vip/163189/viu/
+#EXTINF:-1 tvg-id="ViuTV.hk" tvg-name="ViuTV" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/ViuTV.png" tvg-country="HK" group-title="🇭🇰 香港頻道",ViuTV
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutv
+#EXTINF:-1 tvg-id="ViuTV.hk" tvg-name="ViuTV" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/ViuTV.png" tvg-country="HK" group-title="🇭🇰 香港頻道",ViuTV
+http://r.jdshipin.com/TcKr2
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台" tvg-logo="https://live.fanmingming.cn/tv/明珠台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",明珠台
+http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台" tvg-logo="https://live.fanmingming.cn/tv/明珠台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",明珠台
+http://r.jdshipin.com/ZQ4kN
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台" tvg-logo="https://live.fanmingming.cn/tv/明珠台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",明珠台
+http://php.jdshipin.com/TVOD/iptv.php?id=mzt
+#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="無綫新聞台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",無綫新聞台
+http://r.jdshipin.com/CkuBd
+#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="無綫新聞台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",無綫新聞台
+http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
+#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="無綫新聞台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",無綫新聞台
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
+#EXTINF:-1 tvg-id="UniversalTelevision.hk" tvg-name="環球電視" tvg-logo="https://live.fanmingming.cn/tv/环球电视台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",環球電視
+http://utv1.hqtvzb.com:9999/hls/world.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="美亞C+" tvg-logo="https://gitee.com/suxuang/logo/raw/master/logo/美亚C.png" tvg-country="HK" group-title="🇭🇰 香港頻道",美亞C+
+http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
+#EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" tvg-country="HK" group-title="🇭🇰 香港頻道",翡翠台
+http://r.jdshipin.com/qClQf
+#EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" tvg-country="HK" group-title="🇭🇰 香港頻道",翡翠台
+http://r.jdshipin.com/GeWKr
+#EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" tvg-country="HK" group-title="🇭🇰 香港頻道",翡翠台
+http://r.jdshipin.com/n90gt
+#EXTINF:-1 tvg-id="" tvg-name="翡翠台北美版" tvg-logo="" tvg-country="HK" group-title="🇭🇰 香港頻道",翡翠台北美版
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
+#EXTINF:-1 tvg-id="" tvg-name="耀才財經" tvg-logo="https://live.fanmingming.cn/tv/耀才财经.png" tvg-country="HK" group-title="🇭🇰 香港頻道",耀才財經
+https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="華麗翡翠台" tvg-logo="https://epg.112114.xyz/logo/华丽翡翠台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",華麗翡翠台
+http://r.jdshipin.com/thuYX
+#EXTINF:-1 tvg-id="" tvg-name="華麗翡翠台" tvg-logo="https://epg.112114.xyz/logo/华丽翡翠台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",華麗翡翠台
+http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+#EXTINF:-1 tvg-id="HKSTV.hk" tvg-name="香港衛視" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/香港卫视.png" tvg-country="HK" group-title="🇭🇰 香港頻道",香港衛視
+http://player.cntv.cn/standard/live_HLSDRM20180606.swf?ChannelID=xianggangweishi&P2PChannelID=pd://cctv_p2p_hdxianggangweishi
+#EXTINF:-1 tvg-id="HKSTV.hk" tvg-name="香港衛視" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/香港卫视.png" tvg-country="HK" group-title="🇭🇰 香港頻道",香港衛視
+http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-id="HKSTV.hk" tvg-name="香港衛視" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/香港卫视.png" tvg-country="HK" group-title="🇭🇰 香港頻道",香港衛視
+https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8
+#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="鳳凰衛視中文台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视中文台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視中文台
+http://r.jdshipin.com/cCCzW
+#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="鳳凰衛視中文台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视中文台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視中文台
+http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
+#EXTINF:-1 tvg-id="" tvg-name="鳳凰衛視台" tvg-logo="" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視台
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="鳳凰衛視資訊台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視資訊台
+http://r.jdshipin.com/0Rp07
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="鳳凰衛視資訊台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視資訊台
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="鳳凰衛視資訊台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視資訊台
+http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="鳳凰衛視香港台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视香港台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視香港台
+http://r.jdshipin.com/NfC0f
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="鳳凰衛視香港台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视香港台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視香港台
+http://r.jdshipin.com/yDoTN
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="鳳凰衛視香港台" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视香港台.png" tvg-country="HK" group-title="🇭🇰 香港頻道",鳳凰衛視香港台
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk

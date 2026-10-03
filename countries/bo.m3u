@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="RedADvenirTV.bo" tvg-name="RedADvenir TV KSCE" tvg-logo="https://i.imgur.com/970zAEn.png" tvg-country="BO" group-title="🇧🇴 Bolivia",RedADvenir TV KSCE
+https://2-fss-2.streamhoster.com/pl_120/200226-1449024-1/playlist.m3u8

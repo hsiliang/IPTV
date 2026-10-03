@@ -1,0 +1,122 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="BeautifulLifeTV.tw" tvg-name="Beautiful Life TV" tvg-logo="https://i.imgur.com/hkwcBM9.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",Beautiful Life TV
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+#EXTINF:-1 tvg-id="CGNTVChinese.tw" tvg-name="CGNTV Chinese" tvg-logo="https://i.imgur.com/bPoPAbR.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",CGNTV Chinese
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-id="ETMall60.tw" tvg-name="ET Mall 60" tvg-logo="https://i.imgur.com/nvm6dyH.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",ET Mall 60
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
+#EXTINF:-1 tvg-id="GeniusGoGoGo.tw" tvg-name="Genius Go Go Go" tvg-logo="" tvg-country="TW" group-title="🇹🇼 台灣頻道",Genius Go Go Go
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
+#EXTINF:-1 tvg-id="GlobalNews.tw" tvg-name="Global News" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Global2.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",Global News
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Momo 1" tvg-logo="" tvg-country="TW" group-title="🇹🇼 台灣頻道",Momo 1
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Momo 2" tvg-logo="" tvg-country="TW" group-title="🇹🇼 台灣頻道",Momo 2
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV05.m3u8
+#EXTINF:-1 tvg-id="SupremeMasterTV.tw" tvg-name="Supreme Master TV" tvg-logo="https://i.imgur.com/kFMHayP.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",Supreme Master TV
+https://lbs-us1.suprememastertv.com/720p.m3u8
+#EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw" tvg-name="Taiwan Indigenous TV" tvg-logo="https://i.imgur.com/QqIdVqz.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",Taiwan Indigenous TV
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+#EXTINF:-1 tvg-id="TaiwanPlusTV.tw" tvg-name="Taiwan Plus TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Taiwan_Plus.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",Taiwan Plus TV
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV78.m3u8
+#EXTINF:-1 tvg-id="TVBS.tw" tvg-name="TVBS" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",TVBS
+https://7612-5516-affc-d88b.kylintv.tv/live/tvbshd_iphone.m3u8
+#EXTINF:-1 tvg-id="TVBS.tw" tvg-name="TVBS" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",TVBS
+http://31.43.191.125:8080/restream/restream/34915
+#EXTINF:-1 tvg-id="TVBSAsia.tw" tvg-name="TVBS-Asia" tvg-logo="https://i.imgur.com/4S1rkhm.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",TVBS-Asia
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TVBS亞洲" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS亚洲.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",TVBS亞洲
+http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TVBS亞洲" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS亚洲.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",TVBS亞洲
+http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TVBS亞洲" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS亚洲.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",TVBS亞洲
+http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+#EXTINF:-1 tvg-id="WXTV.tw" tvg-name="WXTV" tvg-logo="https://i.imgur.com/s8tiTeb.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",WXTV
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="三立戲劇" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/三立戏剧.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",三立戲劇
+http://61.221.215.25:8800/hls/41/index.m3u8
+#EXTINF:-1 tvg-id="SETNews.tw" tvg-name="三立新聞" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/三立新闻.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",三立新聞
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
+#EXTINF:-1 tvg-id="CTiEntertainment.tw" tvg-name="中天娛樂台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中天娱乐台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",中天娛樂台
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-id="CTiNews.tw" tvg-name="中天新聞" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中天新闻台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",中天新聞
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
+#EXTINF:-1 tvg-id="CTiNews.tw" tvg-name="中天新聞" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中天新闻台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",中天新聞
+http://iactive-clink.com:8081/live/111ztxw.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="中視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",中視
+http://31.43.191.125:8080/restream/restream/34897
+#EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-name="中視新聞" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTV1.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",中視新聞
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="公視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/公视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",公視
+http://31.43.191.125:8080/restream/restream/34891
+#EXTINF:-1 tvg-id="AnimalPlanet.tw" tvg-name="動物星球" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/动物星球.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",動物星球
+http://61.221.215.25:8800/hls/57/index.m3u8
+#EXTINF:-1 tvg-id="TTV.tw" tvg-name="台視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/台视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",台視
+http://31.43.191.125:8080/restream/restream/34879
+#EXTINF:-1 tvg-id="TTV.tw" tvg-name="台視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/台视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",台視
+http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="台視新聞" tvg-logo="https://live.fanmingming.cn/tv/台视新闻.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",台視新聞
+http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 tvg-id="DaliTV.tw" tvg-name="大立電視台" tvg-logo="https://i.imgur.com/pFIMLsA.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",大立電視台
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 tvg-id="Good2.tw" tvg-name="好消息2台" tvg-logo="https://i.imgur.com/YxFRoft.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",好消息2台
+https://live.streamingfast.net/osmflivech2.m3u8
+#EXTINF:-1 tvg-id="GoodTV.tw" tvg-name="好消息電視台" tvg-logo="https://i.imgur.com/k28Kc3o.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",好消息電視台
+https://live.streamingfast.net/osmflivech1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="東森洋片台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/东森洋片台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",東森洋片台
+http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34904
+#EXTINF:-1 tvg-id="" tvg-name="東森洋片台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/东森洋片台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",東森洋片台
+http://31.43.191.125:8080/restream/restream/34904
+#EXTINF:-1 tvg-id="" tvg-name="東森美洲衛視" tvg-logo="" tvg-country="TW" group-title="🇹🇼 台灣頻道",東森美洲衛視
+http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+#EXTINF:-1 tvg-id="ETTVFinancial.tw" tvg-name="東森財經新聞" tvg-logo="https://epg.112114.xyz/logo/东森财经新闻.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",東森財經新聞
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="東森超視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/东森超视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",東森超視
+http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="民視新聞" tvg-logo="https://live.fanmingming.cn/tv/民视新闻台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",民視新聞
+http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="民視新聞" tvg-logo="https://live.fanmingming.cn/tv/民视新闻台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",民視新聞
+http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
+#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="民視新聞" tvg-logo="https://live.fanmingming.cn/tv/民视新闻台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",民視新聞
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="緯來精采" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai7.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",緯來精采
+http://61.221.215.25:8800/hls/48/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="緯來電影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来电影台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",緯來電影
+http://31.43.191.125:8080/restream/restream/34852
+#EXTINF:-1 tvg-id="" tvg-name="緯來電影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/纬来电影台.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",緯來電影
+http://free.cnlive.club/channel/581b458b.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="緯來體育" tvg-logo="https://tb.zbds.top/logo/纬来体育.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",緯來體育
+https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="華視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",華視
+https://7612-5516-affc-d88b.kylintv.tv/live/ctshd_iphone.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="華視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",華視
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="華視" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",華視
+http://31.43.191.125:8080/restream/restream/34887
+#EXTINF:-1 tvg-id="" tvg-name="龍華偶像" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华偶像.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華偶像
+https://8.fast.hidns.vip/163189/lhox
+#EXTINF:-1 tvg-id="" tvg-name="龍華偶像" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华偶像.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華偶像
+http://8.fast.hidns.vip/163189/lhox
+#EXTINF:-1 tvg-id="" tvg-name="龍華偶像" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华偶像.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華偶像
+https://cdn.qd.je/163189/lhox
+#EXTINF:-1 tvg-id="" tvg-name="龍華卡通" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华卡通.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華卡通
+http://8.fast.hidns.vip/163189/lhkt
+#EXTINF:-1 tvg-id="" tvg-name="龍華卡通" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华卡通.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華卡通
+https://8.fast.hidns.vip/163189/lhkt
+#EXTINF:-1 tvg-id="" tvg-name="龍華卡通" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华卡通.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華卡通
+https://cdn.qd.je/163189/lhkt
+#EXTINF:-1 tvg-id="" tvg-name="龍華戲劇" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华戏剧.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華戲劇
+https://8.fast.hidns.vip/163189/lhxj
+#EXTINF:-1 tvg-id="" tvg-name="龍華洋片" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华洋片.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華洋片
+https://8.fast.hidns.vip/163189/lhyp
+#EXTINF:-1 tvg-id="" tvg-name="龍華洋片" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华洋片.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華洋片
+https://cdn.qd.je/163189/lhyp
+#EXTINF:-1 tvg-id="" tvg-name="龍華洋片" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华洋片.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華洋片
+http://31.43.191.125:8080/restream/restream/34828
+#EXTINF:-1 tvg-id="" tvg-name="龍華經典" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华经典.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華經典
+https://8.fast.hidns.vip/163189/lhjd
+#EXTINF:-1 tvg-id="" tvg-name="龍華經典" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华经典.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華經典
+http://8.fast.hidns.vip/163189/lhjd
+#EXTINF:-1 tvg-id="" tvg-name="龍華經典" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华经典.png" tvg-country="TW" group-title="🇹🇼 台灣頻道",龍華經典
+https://cdn.qd.je/163189/lhjd

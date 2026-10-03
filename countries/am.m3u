@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="Armenia1.am" tvg-name="Armenia 1 America" tvg-logo="https://i.imgur.com/HIwJ4lc.png" tvg-country="AM" group-title="🇦🇲 Armenia",Armenia 1 America
+https://amtvusdvr.tulix.tv/am4abr/index.m3u8

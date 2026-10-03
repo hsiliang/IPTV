@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="LBCInternational.lb" tvg-name="LBC International" tvg-logo="https://i.imgur.com/h26xtUv.png" tvg-country="LB" group-title="🇱🇧 Lebanon",LBC International
+http://185.9.2.18/chid_521/index.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="AlabbassiaTV.iq" tvg-name="AlabbassiaTV" tvg-logo="https://gitlab.com/alabbassia-tv/alabbassia-tv-source/-/raw/main/Logo_PNG.png" tvg-country="IQ" group-title="🇮🇶 Iraq",AlabbassiaTV
+https://stream.alabbassia.com/live/alabbassia/index.m3u8

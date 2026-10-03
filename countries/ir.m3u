@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-04 04:42:22 +0800
+#EXTINF:-1 tvg-id="CafeTradeTV.ir" tvg-name="Cafe Trade TV" tvg-logo="https://i.ibb.co/GW4cMfc/cafe-trade-tv.png" tvg-country="IR" group-title="🇮🇷 Iran",Cafe Trade TV
+https://cafetradehls.wns.live/hls/stream.m3u8
