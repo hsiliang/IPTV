@@ -50,6 +50,11 @@
   "reason": "中文頻道比例過低(0%)",
   "status": "rejected"
  },
+ "ahXN00/OwnTV": {
+  "checked_at": "2026-10-03T20:54:33.934540+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "akiralereal/iptv": {
   "checked_at": "2026-09-27T16:50:15.388665+00:00",
   "reason": "頻道數過少(28)",
@@ -58,6 +63,11 @@
  "alantang1977/IPTV_SuperA": {
   "checked_at": "2026-09-28T05:35:00.169240+00:00",
   "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
+ "amazeyourself/m3u": {
+  "checked_at": "2026-10-03T20:54:35.557929+00:00",
+  "reason": "中文頻道比例過低(0%)",
   "status": "rejected"
  },
  "best-fan/iptv-sources": {
@@ -69,6 +79,16 @@
  "binhex/iptv": {
   "checked_at": "2026-09-28T03:15:14.361393+00:00",
   "reason": "中文頻道比例過低(0%)",
+  "status": "rejected"
+ },
+ "byte-capsule/FanCode-Hls-Fetcher": {
+  "checked_at": "2026-10-03T20:54:34.150542+00:00",
+  "reason": "頻道數過少(0)",
+  "status": "rejected"
+ },
+ "cs3306/IPTV-Sources": {
+  "checked_at": "2026-10-03T20:54:34.493005+00:00",
+  "reason": "頻道數過少(0)",
   "status": "rejected"
  },
  "dhasap/dhanytv": {
@@ -92,6 +112,11 @@
   "file": "https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u",
   "reason": "頻道清單主要為高畫質且穩定的大陸主流央視頻道，中文比例極高，適合自動抓取。",
   "status": "accepted"
+ },
+ "iprtl/m3u": {
+  "checked_at": "2026-10-03T20:54:34.750599+00:00",
+  "reason": "中文頻道比例過低(0%)",
+  "status": "rejected"
  },
  "jia070310/4K-IPTV-M3U": {
   "checked_at": "2026-09-27T21:00:11.370176+00:00",
@@ -120,6 +145,11 @@
   "reason": "該倉庫來源於官方網站即時抓取，頻道名稱規範且涵蓋主要官媒，具備良好的穩定性與品質。",
   "status": "accepted"
  },
+ "ngrch/iptv": {
+  "checked_at": "2026-10-03T20:54:35.873495+00:00",
+  "reason": "中文頻道比例過低(0%)",
+  "status": "rejected"
+ },
  "ouomj/my-iptv": {
   "checked_at": "2026-09-27T21:00:10.962691+00:00",
   "reason": "頻道數過少(1)",
@@ -136,6 +166,11 @@
   "file": "https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/main/hk_live.m3u",
   "reason": "此 repo 專門針對香港電視頻道進行自動抓取與有效性檢測，且頻道內容符合目標地區與中文需求。",
   "status": "accepted"
+ },
+ "sky22333/sky-tv": {
+  "checked_at": "2026-10-03T20:54:34.310689+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
  },
  "xisohi/CHINA-IPTV": {
   "checked_at": "2026-09-28T03:15:10.973728+00:00",
