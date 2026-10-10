@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-11 05:16:24 +0800
+#EXTINF:-1 tvg-id="RTArabic.ru" tvg-name="RT Arabic" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT.png" tvg-country="RU" group-title="🇷🇺 Russia",RT Arabic
+https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8

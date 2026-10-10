@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-11 05:16:24 +0800
+#EXTINF:-1 tvg-id="CNNChile.cl" tvg-name="CNN Chile" tvg-logo="https://i.imgur.com/t4EXijz.png" tvg-country="CL" group-title="🇨🇱 Chile",CNN Chile
+http://190.110.96.238:8000/play/a0f5/index.m3u8

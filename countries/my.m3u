@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-11 05:16:24 +0800
+#EXTINF:-1 tvg-id="AstroAOD.my" tvg-name="Astro AOD" tvg-logo="" tvg-country="MY" group-title="🇲🇾 Malaysia",Astro AOD
+http://php.jdshipin.com/TVOD/iptv.php?id=aod

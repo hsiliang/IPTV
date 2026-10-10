@@ -1,0 +1,8 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-11 05:16:24 +0800
+#EXTINF:-1 tvg-id="LaVozdeJesusHD.do" tvg-name="La Voz de Jesus" tvg-logo="https://gia.tv/streams/pstream/208429.png" tvg-country="DO" group-title="🇩🇴 Dominican Republic",La Voz de Jesus
+https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8
+#EXTINF:-1 tvg-id="TomAndJerry.do" tvg-name="Tom And Jerry" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" tvg-country="DO" group-title="🇩🇴 Dominican Republic",Tom And Jerry
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:-1 tvg-id="TurismoHD.do" tvg-name="Turismo" tvg-logo="https://gia.tv/streams/pptv/208343.jpg" tvg-country="DO" group-title="🇩🇴 Dominican Republic",Turismo
+https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8

@@ -1,0 +1,8 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-11 05:16:24 +0800
+#EXTINF:-1 tvg-id="" tvg-name="BBS佛教廣播" tvg-logo="" tvg-country="KR" group-title="🇰🇷 South Korea",BBS佛教廣播
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
+#EXTINF:-1 tvg-id="Cchannel.kr" tvg-name="Channel" tvg-logo="https://i.ibb.co/GC73Fxt/logo.png" tvg-country="KR" group-title="🇰🇷 South Korea",Channel
+http://116.77.33.98:44330/tsfile/live/1010_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="" tvg-name="韓國EBS少兒" tvg-logo="" tvg-country="KR" group-title="🇰🇷 South Korea",韓國EBS少兒
+http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8

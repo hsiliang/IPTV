@@ -1,0 +1,8 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-11 05:16:24 +0800
+#EXTINF:-1 tvg-id="MediasetItalia.it" tvg-name="Mediaset Italia USA" tvg-logo="https://i.imgur.com/F4gyqhw.png" tvg-country="IT" group-title="🇮🇹 Italy",Mediaset Italia USA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://d3k8wzt41aflvx.cloudfront.net/MediasetUSA/Live.m3u8
+#EXTINF:-1 tvg-id="RaiWorldPremium.it" tvg-name="Rai World Premium" tvg-logo="https://i.imgur.com/tDuKkh3.png" tvg-country="IT" group-title="🇮🇹 Italy",Rai World Premium
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8
