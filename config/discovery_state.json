@@ -34,6 +34,16 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "PiratesIRC/Dispatcharr-IPTV-Checker-Plugin": {
+  "checked_at": "2026-10-10T21:27:27.068881+00:00",
+  "reason": "頻道數過少(0)",
+  "status": "rejected"
+ },
+ "PiratesIRC/Stream-Mapparr": {
+  "checked_at": "2026-10-10T21:27:26.732924+00:00",
+  "reason": "頻道數過少(0)",
+  "status": "rejected"
+ },
  "RaycornM/TVbox-IPTV": {
   "checked_at": "2026-09-28T05:34:05.726285+00:00",
   "file": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi-ipv6.m3u",
