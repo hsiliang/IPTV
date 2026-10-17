@@ -55,6 +55,11 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "Zhou-Li-Bin/Tvbox-QingNing": {
+  "checked_at": "2026-10-17T20:25:09.804551+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "abusaeeidx/IPTV-Scraper-Zilla": {
   "checked_at": "2026-09-28T03:15:12.586587+00:00",
   "reason": "中文頻道比例過低(0%)",
@@ -181,6 +186,12 @@
   "checked_at": "2026-10-03T20:54:34.310689+00:00",
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
+ },
+ "vbskycn/iptv": {
+  "checked_at": "2026-10-17T20:25:08.886170+00:00",
+  "file": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
+  "reason": "該 repo 的 star 數高、更新活躍，且中文頻道比例極高，非常適合納入自動抓取來源。",
+  "status": "accepted"
  },
  "xisohi/CHINA-IPTV": {
   "checked_at": "2026-09-28T03:15:10.973728+00:00",
