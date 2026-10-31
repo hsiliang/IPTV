@@ -154,6 +154,11 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "moodiness/polyfin": {
+  "checked_at": "2026-10-31T21:18:30.185288+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "mytv-android/China-TV-Live-M3U8": {
   "checked_at": "2026-09-27T16:50:16.813695+00:00",
   "file": "https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/main/webview.m3u",
