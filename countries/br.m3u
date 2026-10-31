@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-10-31 19:48:34 +0800
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/HBO.png" tvg-country="BR" group-title="🇧🇷 Brazil",HBO
+http://31.43.191.125:8080/restream/restream/34571
