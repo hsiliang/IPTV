@@ -34,6 +34,11 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "NoXqc/VesperTV": {
+  "checked_at": "2026-11-07T21:40:28.534429+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
  "PiratesIRC/Dispatcharr-IPTV-Checker-Plugin": {
   "checked_at": "2026-10-10T21:27:27.068881+00:00",
   "reason": "頻道數過少(0)",
