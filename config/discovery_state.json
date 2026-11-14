@@ -29,8 +29,18 @@
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
+ "JMigue85/IPTV-SV": {
+  "checked_at": "2026-11-14T22:13:07.809351+00:00",
+  "reason": "中文頻道比例過低(0%)",
+  "status": "rejected"
+ },
  "LITUATUI/M3UPT": {
   "checked_at": "2026-09-27T16:50:15.485372+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
+ },
+ "LumoraPlayer/Lumora": {
+  "checked_at": "2026-11-14T22:13:07.286302+00:00",
   "reason": "找不到符合格式的頻道清單檔案",
   "status": "rejected"
  },
@@ -95,6 +105,11 @@
   "file": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "reason": "該 repo 有適度的 star 數、近期活躍更新，且頻道抽樣包含常見的主流中文電視台直播源。",
   "status": "accepted"
+ },
+ "bilipp/Lume": {
+  "checked_at": "2026-11-14T22:13:07.095200+00:00",
+  "reason": "找不到符合格式的頻道清單檔案",
+  "status": "rejected"
  },
  "binhex/iptv": {
   "checked_at": "2026-09-28T03:15:14.361393+00:00",
