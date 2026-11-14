@@ -1,0 +1,6 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-11-14 21:06:03 +0800
+#EXTINF:-1 tvg-id="Discovery.il" tvg-name="Discovery" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Discovery.png" tvg-country="IL" group-title="🇮🇱 Israel",Discovery
+http://ott.watch/stream/E9LDH2ZCN7/146.m3u8
+#EXTINF:-1 tvg-id="Discovery.il" tvg-name="Discovery" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Discovery.png" tvg-country="IL" group-title="🇮🇱 Israel",Discovery
+http://ott.watch/stream/E9LDH2ZCN7/177.m3u8
