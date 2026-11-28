@@ -1,0 +1,38 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz" url-tvg="https://raw.githubusercontent.com/hsiliang/IPTV/release/epg.xml.gz"
+# Updated: 2026-11-28 23:09:32 +0800
+#EXTINF:-1 tvg-id="CartoonNetwork.jp" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" tvg-country="JP" group-title="🇯🇵 Japan",Cartoon Network
+http://103.255.250.188:5002/cs25.m3u8?channel=zhongying&gid=cs25&token=guoziyun
+#EXTINF:-1 tvg-id="CGNTVJapan.jp" tvg-name="CGNTV Japan" tvg-logo="https://i.imgur.com/5LNZeVq.png" tvg-country="JP" group-title="🇯🇵 Japan",CGNTV Japan
+#EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
+https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.jp" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" tvg-country="JP" group-title="🇯🇵 Japan",Disney Channel
+http://103.255.250.188:5002/bs24.m3u8?channel=zhongying&gid=bs24&token=guoziyun
+#EXTINF:-1 tvg-id="FujiTV.jp" tvg-name="Fuji TV" tvg-logo="https://i.imgur.com/sEWDmMD.png" tvg-country="JP" group-title="🇯🇵 Japan",Fuji TV
+#EXTVLCOPT:http-referrer=https://mov3.co/
+https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="GSTV.jp" tvg-name="GSTV" tvg-logo="https://i.imgur.com/ECnVG5I.png" tvg-country="JP" group-title="🇯🇵 Japan",GSTV
+https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
+#EXTINF:-1 tvg-id="MTV.jp" tvg-name="MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" tvg-country="JP" group-title="🇯🇵 Japan",MTV
+http://103.255.250.188:5002/cs18.m3u8?channel=zhongying&gid=cs18&token=guoziyun
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp" tvg-name="NHK General TV JOJG-DTV" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" tvg-country="JP" group-title="🇯🇵 Japan",NHK General TV JOJG-DTV
+https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
+#EXTINF:-1 tvg-id="QVC.jp" tvg-name="QVC" tvg-logo="https://i.imgur.com/6TWUVrh.png" tvg-country="JP" group-title="🇯🇵 Japan",QVC
+https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
+#EXTINF:-1 tvg-id="SakuranboTV.jp" tvg-name="Sakuranbo TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/SAY_logo_1997.svg" tvg-country="JP" group-title="🇯🇵 Japan",Sakuranbo TV
+https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8
+#EXTINF:-1 tvg-id="TVAsahi.jp" tvg-name="TV Asahi" tvg-logo="https://i.imgur.com/YCqB5Kj.png" tvg-country="JP" group-title="🇯🇵 Japan",TV Asahi
+#EXTVLCOPT:http-referrer=https://mov3.co/
+https://tvasahi.mov3.co/hls/tvasahi.m3u8
+#EXTINF:-1 tvg-id="TVTokyo.jp" tvg-name="TV Tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/960px-TV_Tokyo_%28Japanese%29_2023.svg.png" tvg-country="JP" group-title="🇯🇵 Japan",TV Tokyo
+#EXTVLCOPT:http-referrer=https://mov3.co/
+https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
+#EXTINF:-1 tvg-id="TVUYamagata.jp" tvg-name="TV-U Yamagata" tvg-logo="https://i.imgur.com/9yZe76d.png" tvg-country="JP" group-title="🇯🇵 Japan",TV-U Yamagata
+https://tv-stream-test.daydreamer-json.cc/stream/1668b5a43560598b385ccf33fd2d5f43/master.m3u8
+#EXTINF:-1 tvg-id="Weathernews.jp" tvg-name="Weathernews" tvg-logo="https://i.imgur.com/A8uRSTS.png" tvg-country="JP" group-title="🇯🇵 Japan",Weathernews
+https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
+#EXTINF:-1 tvg-id="YTSYamagataTV.jp" tvg-name="YTS Yamagata TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/YTS2024.svg" tvg-country="JP" group-title="🇯🇵 Japan",YTS Yamagata TV
+https://tv-stream-test.daydreamer-json.cc/stream/407fd00ebd2a059c9cd1ea3fa7156097/master.m3u8
+#EXTINF:-1 tvg-id="NihonEigaSenmonChannel.jp" tvg-name="日本映畫専門チャンネル" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/日本映画専门チャンネル.png" tvg-country="JP" group-title="🇯🇵 Japan",日本映畫専門チャンネル
+https://epg.pw/stream/4ac6d730dcafe4489bb717443135c990423085e6ebdc8253d61fa8dab568bc32.m3u8
+#EXTINF:-1 tvg-id="ToeiChannel.jp" tvg-name="東映チャンネル" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/东映チャンネル.png" tvg-country="JP" group-title="🇯🇵 Japan",東映チャンネル
+https://epg.pw/stream/7c08c183610740794e0f39e158a44d85e6b400eea9eac7e2aaf09706f05bbf40.m3u8
